@@ -3,10 +3,7 @@
   "category": "misc",
   "ingredients": [
     {
-      "item": "minecraft:slimeball"
-    },
-    {
-      "item": "aether:swet_ball"
+      "item": "minecraft:slime_ball"
     }
   ],
   "result": {
