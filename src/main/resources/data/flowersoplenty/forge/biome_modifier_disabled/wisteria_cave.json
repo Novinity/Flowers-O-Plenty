@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "minecraft:lush_caves",
+  "features": "flowersoplenty:wisteria_cave",
+  "step": "vegetal_decoration"
+}

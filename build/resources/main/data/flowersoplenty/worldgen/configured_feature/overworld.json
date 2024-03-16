@@ -1,0 +1,1062 @@
+{
+  "type": "minecraft:random_patch",
+  "config": {
+    "tries": 20,
+    "xz_spread": 1,
+    "y_spread": 1,
+    "feature": {
+      "feature": {
+        "type": "minecraft:simple_block",
+        "config": {
+          "to_place": {
+            "type": "minecraft:weighted_state_provider",
+            "entries": [
+              {
+                "weight": 2,
+                "data": {
+                  "Name": "flowersoplenty:red_geranium"
+                }
+              },
+              {
+                "weight": 2,
+                "data": {
+                  "Name": "flowersoplenty:red_poppy"
+                }
+              },
+              {
+                "weight": 2,
+                "data": {
+                  "Name": "flowersoplenty:red_clover"
+                }
+              },
+              {
+                "weight": 2,
+                "data": {
+                  "Name": "flowersoplenty:red_freesia"
+                }
+              },
+              {
+                "weight": 2,
+                "data": {
+                  "Name": "flowersoplenty:lantana"
+                }
+              },
+              {
+                "weight": 2,
+                "data": {
+                  "Name": "flowersoplenty:sunny_zinnia"
+                }
+              },
+              {
+                "weight": 2,
+                "data": {
+                  "Name": "flowersoplenty:striped_zinnia"
+                }
+              },
+              {
+                "weight": 2,
+                "data": {
+                  "Name": "flowersoplenty:mixed_zinnia"
+                }
+              },
+              {
+                "weight": 2,
+                "data": {
+                  "Name": "flowersoplenty:dahlia"
+                }
+              },
+              {
+                "weight": 2,
+                "data": {
+                  "Name": "flowersoplenty:orange_freesia"
+                }
+              },
+              {
+                "weight": 2,
+                "data": {
+                  "Name": "flowersoplenty:nasturtium"
+                }
+              },
+              {
+                "weight": 2,
+                "data": {
+                  "Name": "flowersoplenty:sticky_monkey"
+                }
+              },
+              {
+                "weight": 2,
+                "data": {
+                  "Name": "flowersoplenty:orange_day_lily"
+                }
+              },
+              {
+                "weight": 2,
+                "data": {
+                  "Name": "flowersoplenty:day_lily"
+                }
+              },
+              {
+                "weight": 2,
+                "data": {
+                  "Name": "flowersoplenty:california_poppy"
+                }
+              },
+              {
+                "weight": 2,
+                "data": {
+                  "Name": "flowersoplenty:orange_cosmos"
+                }
+              },
+              {
+                "weight": 2,
+                "data": {
+                  "Name": "flowersoplenty:orange_lupin"
+                }
+              },
+              {
+                "weight": 2,
+                "data": {
+                  "Name": "flowersoplenty:lady_slipper_orchid"
+                }
+              },
+              {
+                "weight": 2,
+                "data": {
+                  "Name": "flowersoplenty:yellow_cosmos"
+                }
+              },
+              {
+                "weight": 2,
+                "data": {
+                  "Name": "flowersoplenty:yellow_crocus"
+                }
+              },
+              {
+                "weight": 2,
+                "data": {
+                  "Name": "flowersoplenty:yellow_freesia"
+                }
+              },
+              {
+                "weight": 2,
+                "data": {
+                  "Name": "flowersoplenty:corydalis"
+                }
+              },
+              {
+                "weight": 2,
+                "data": {
+                  "Name": "flowersoplenty:yellow_lupin"
+                }
+              },
+              {
+                "weight": 2,
+                "data": {
+                  "Name": "flowersoplenty:golden_bean"
+                }
+              },
+              {
+                "weight": 2,
+                "data": {
+                  "Name": "flowersoplenty:crocus_mix"
+                }
+              },
+              {
+                "weight": 2,
+                "data": {
+                  "Name": "flowersoplenty:yellow_daffodil"
+                }
+              },
+              {
+                "weight": 2,
+                "data": {
+                  "Name": "flowersoplenty:white_daffodil"
+                }
+              },
+              {
+                "weight": 2,
+                "data": {
+                  "Name": "flowersoplenty:narcissus"
+                }
+              },
+              {
+                "weight": 2,
+                "data": {
+                  "Name": "flowersoplenty:pansy"
+                }
+              },
+              {
+                "weight": 2,
+                "data": {
+                  "Name": "flowersoplenty:cloud_blue_corydalis"
+                }
+              },
+              {
+                "weight": 2,
+                "data": {
+                  "Name": "flowersoplenty:cyan_hyacinth"
+                }
+              },
+              {
+                "weight": 2,
+                "data": {
+                  "Name": "flowersoplenty:light_blue_forget_me_not"
+                }
+              },
+              {
+                "weight": 2,
+                "data": {
+                  "Name": "flowersoplenty:forget_me_not"
+                }
+              },
+              {
+                "weight": 2,
+                "data": {
+                  "Name": "flowersoplenty:light_blue_lobelia"
+                }
+              },
+              {
+                "weight": 2,
+                "data": {
+                  "Name": "flowersoplenty:medium_blue_lobelia"
+                }
+              },
+              {
+                "weight": 2,
+                "data": {
+                  "Name": "flowersoplenty:royal_blue_lobelia"
+                }
+              },
+              {
+                "weight": 2,
+                "data": {
+                  "Name": "flowersoplenty:morning_glory"
+                }
+              },
+              {
+                "weight": 2,
+                "data": {
+                  "Name": "flowersoplenty:bachelor_button"
+                }
+              },
+              {
+                "weight": 2,
+                "data": {
+                  "Name": "flowersoplenty:blue_bachelor_button"
+                }
+              },
+              {
+                "weight": 2,
+                "data": {
+                  "Name": "flowersoplenty:blue_bell_bachelor_button"
+                }
+              },
+              {
+                "weight": 2,
+                "data": {
+                  "Name": "flowersoplenty:borage"
+                }
+              },
+              {
+                "weight": 2,
+                "data": {
+                  "Name": "flowersoplenty:dark_blue_borage"
+                }
+              },
+              {
+                "weight": 2,
+                "data": {
+                  "Name": "flowersoplenty:commelina"
+                }
+              },
+              {
+                "weight": 2,
+                "data": {
+                  "Name": "flowersoplenty:grape_hyacinth"
+                }
+              },
+              {
+                "weight": 2,
+                "data": {
+                  "Name": "flowersoplenty:virginia_cowslip"
+                }
+              },
+              {
+                "weight": 2,
+                "data": {
+                  "Name": "flowersoplenty:periwinkle"
+                }
+              },
+              {
+                "weight": 2,
+                "data": {
+                  "Name": "flowersoplenty:common_periwinkle"
+                }
+              },
+              {
+                "weight": 2,
+                "data": {
+                  "Name": "flowersoplenty:cloud_sage"
+                }
+              },
+              {
+                "weight": 2,
+                "data": {
+                  "Name": "flowersoplenty:purple_crocus"
+                }
+              },
+              {
+                "weight": 2,
+                "data": {
+                  "Name": "flowersoplenty:peppermint"
+                }
+              },
+              {
+                "weight": 2,
+                "data": {
+                  "Name": "flowersoplenty:parrot_flower"
+                }
+              },
+              {
+                "weight": 2,
+                "data": {
+                  "Name": "flowersoplenty:birds_eye_gilia"
+                }
+              },
+              {
+                "weight": 2,
+                "data": {
+                  "Name": "flowersoplenty:african_daisy"
+                }
+              },
+              {
+                "weight": 2,
+                "data": {
+                  "Name": "flowersoplenty:iris_fancy_dress"
+                }
+              },
+              {
+                "weight": 2,
+                "data": {
+                  "Name": "flowersoplenty:wolfs_bane"
+                }
+              },
+              {
+                "weight": 2,
+                "data": {
+                  "Name": "flowersoplenty:purple_lupin"
+                }
+              },
+              {
+                "weight": 2,
+                "data": {
+                  "Name": "flowersoplenty:pansy_purple"
+                }
+              },
+              {
+                "weight": 2,
+                "data": {
+                  "Name": "flowersoplenty:violet"
+                }
+              },
+              {
+                "weight": 2,
+                "data": {
+                  "Name": "flowersoplenty:salvia"
+                }
+              },
+              {
+                "weight": 2,
+                "data": {
+                  "Name": "flowersoplenty:purple_magenta_salvia"
+                }
+              },
+              {
+                "weight": 2,
+                "data": {
+                  "Name": "flowersoplenty:mexican_sage"
+                }
+              },
+              {
+                "weight": 2,
+                "data": {
+                  "Name": "flowersoplenty:purple_calla_lily"
+                }
+              },
+              {
+                "weight": 2,
+                "data": {
+                  "Name": "flowersoplenty:purple_african_daisy"
+                }
+              },
+              {
+                "weight": 2,
+                "data": {
+                  "Name": "flowersoplenty:maroon_mallow"
+                }
+              },
+              {
+                "weight": 2,
+                "data": {
+                  "Name": "flowersoplenty:pink_petticoat"
+                }
+              },
+              {
+                "weight": 2,
+                "data": {
+                  "Name": "flowersoplenty:pitcher_plant"
+                }
+              },
+              {
+                "weight": 2,
+                "data": {
+                  "Name": "flowersoplenty:venus_fly_trap"
+                }
+              },
+              {
+                "weight": 2,
+                "data": {
+                  "Name": "flowersoplenty:magenta_zinnia"
+                }
+              },
+              {
+                "weight": 2,
+                "data": {
+                  "Name": "flowersoplenty:fuchsia"
+                }
+              },
+              {
+                "weight": 2,
+                "data": {
+                  "Name": "flowersoplenty:fuchsia_small"
+                }
+              },
+              {
+                "weight": 2,
+                "data": {
+                  "Name": "flowersoplenty:magenta_clover"
+                }
+              },
+              {
+                "weight": 2,
+                "data": {
+                  "Name": "flowersoplenty:pink_clover"
+                }
+              },
+              {
+                "weight": 2,
+                "data": {
+                  "Name": "flowersoplenty:pink_geranium"
+                }
+              },
+              {
+                "weight": 2,
+                "data": {
+                  "Name": "flowersoplenty:echinacea"
+                }
+              },
+              {
+                "weight": 2,
+                "data": {
+                  "Name": "flowersoplenty:light_pink_geranium"
+                }
+              },
+              {
+                "weight": 2,
+                "data": {
+                  "Name": "flowersoplenty:bleeding_heart"
+                }
+              },
+              {
+                "weight": 2,
+                "data": {
+                  "Name": "flowersoplenty:nasturtium_pink"
+                }
+              },
+              {
+                "weight": 2,
+                "data": {
+                  "Name": "flowersoplenty:flowering_current"
+                }
+              },
+              {
+                "weight": 2,
+                "data": {
+                  "Name": "flowersoplenty:clover_flowers"
+                }
+              },
+              {
+                "weight": 2,
+                "data": {
+                  "Name": "flowersoplenty:snapdragon_pink"
+                }
+              },
+              {
+                "weight": 2,
+                "data": {
+                  "Name": "flowersoplenty:baneberry"
+                }
+              },
+              {
+                "weight": 2,
+                "data": {
+                  "Name": "flowersoplenty:cosmos_mix"
+                }
+              },
+              {
+                "weight": 2,
+                "data": {
+                  "Name": "flowersoplenty:cosmos"
+                }
+              },
+              {
+                "weight": 2,
+                "data": {
+                  "Name": "flowersoplenty:magenta_orchid"
+                }
+              },
+              {
+                "weight": 2,
+                "data": {
+                  "Name": "flowersoplenty:clover_leaves"
+                }
+              },
+              {
+                "weight": 2,
+                "data": {
+                  "Name": "flowersoplenty:snapdragon_white"
+                }
+              },
+              {
+                "weight": 2,
+                "data": {
+                  "Name": "flowersoplenty:lily_of_the_valley"
+                }
+              },
+              {
+                "weight": 2,
+                "data": {
+                  "Name": "flowersoplenty:calla_lily"
+                }
+              },
+              {
+                "weight": 2,
+                "data": {
+                  "Name": "flowersoplenty:chrysanthenum"
+                }
+              },
+              {
+                "weight": 2,
+                "data": {
+                  "Name": "flowersoplenty:lewisia"
+                }
+              },
+              {
+                "weight": 2,
+                "data": {
+                  "Name": "flowersoplenty:gloriosa_lily"
+                }
+              },
+              {
+                "weight": 2,
+                "data": {
+                  "Name": "flowersoplenty:cape_aloe"
+                }
+              },
+              {
+                "weight": 2,
+                "data": {
+                  "Name": "flowersoplenty:red_sunflower"
+                }
+              },
+              {
+                "weight": 2,
+                "data": {
+                  "Name": "flowersoplenty:paradox_sunflower"
+                }
+              },
+              {
+                "weight": 2,
+                "data": {
+                  "Name": "flowersoplenty:dried_sunflower"
+                }
+              },
+              {
+                "weight": 2,
+                "data": {
+                  "Name": "flowersoplenty:skyscraper_sunflower"
+                }
+              },
+              {
+                "weight": 2,
+                "data": {
+                  "Name": "flowersoplenty:sundance_kid_sunflower"
+                }
+              },
+              {
+                "weight": 2,
+                "data": {
+                  "Name": "flowersoplenty:teddy_bear_sunflower"
+                }
+              },
+              {
+                "weight": 2,
+                "data": {
+                  "Name": "flowersoplenty:tall_orange_cosmos"
+                }
+              },
+              {
+                "weight": 4,
+                "data": {
+                  "Name": "flowersoplenty:orange_gladiola"
+                }
+              },
+              {
+                "weight": 4,
+                "data": {
+                  "Name": "flowersoplenty:peach_gladiola"
+                }
+              },
+              {
+                "weight": 4,
+                "data": {
+                  "Name": "flowersoplenty:gladiola"
+                }
+              },
+              {
+                "weight": 4,
+                "data": {
+                  "Name": "flowersoplenty:crimson_gladiola"
+                }
+              },
+              {
+                "weight": 2,
+                "data": {
+                  "Name": "flowersoplenty:quince"
+                }
+              },
+              {
+                "weight": 2,
+                "data": {
+                  "Name": "flowersoplenty:hawthorne"
+                }
+              },
+              {
+                "weight": 2,
+                "data": {
+                  "Name": "flowersoplenty:ornamental_cherry"
+                }
+              },
+              {
+                "weight": 2,
+                "data": {
+                  "Name": "flowersoplenty:datura"
+                }
+              },
+              {
+                "weight": 2,
+                "data": {
+                  "Name": "flowersoplenty:manzanita_bush"
+                }
+              },
+              {
+                "weight": 2,
+                "data": {
+                  "Name": "flowersoplenty:iris"
+                }
+              },
+              {
+                "weight": 2,
+                "data": {
+                  "Name": "flowersoplenty:tall_lupin"
+                }
+              },
+              {
+                "weight": 2,
+                "data": {
+                  "Name": "flowersoplenty:purple_sweet_peas"
+                }
+              },
+              {
+                "weight": 2,
+                "data": {
+                  "Name": "flowersoplenty:dark_blue_sweet_peas"
+                }
+              },
+              {
+                "weight": 2,
+                "data": {
+                  "Name": "flowersoplenty:blue_bell_sweet_peas"
+                }
+              },
+              {
+                "weight": 2,
+                "data": {
+                  "Name": "flowersoplenty:mixed_pink_sweet_peas"
+                }
+              },
+              {
+                "weight": 2,
+                "data": {
+                  "Name": "flowersoplenty:magenta_sweet_peas"
+                }
+              },
+              {
+                "weight": 2,
+                "data": {
+                  "Name": "flowersoplenty:bright_magenta_sweet_peas"
+                }
+              },
+              {
+                "weight": 2,
+                "data": {
+                  "Name": "flowersoplenty:tall_cosmos"
+                }
+              },
+              {
+                "weight": 2,
+                "data": {
+                  "Name": "flowersoplenty:mendocino_poppy"
+                }
+              },
+              {
+                "weight": 2,
+                "data": {
+                  "Name": "flowersoplenty:tall_calla_lily"
+                }
+              },
+              {
+                "weight": 2,
+                "data": {
+                  "Name": "flowersoplenty:white_larkspur"
+                }
+              },
+              {
+                "weight": 2,
+                "data": {
+                  "Name": "flowersoplenty:lavender_larkspur"
+                }
+              },
+              {
+                "weight": 2,
+                "data": {
+                  "Name": "flowersoplenty:larkspur"
+                }
+              },
+              {
+                "weight": 2,
+                "data": {
+                  "Name": "flowersoplenty:purple_larkspur"
+                }
+              },
+              {
+                "weight": 2,
+                "data": {
+                  "Name": "flowersoplenty:magenta_larkspur"
+                }
+              },
+              {
+                "weight": 2,
+                "data": {
+                  "Name": "flowersoplenty:pink_larkspur"
+                }
+              },
+              {
+                "weight": 2,
+                "data": {
+                  "Name": "flowersoplenty:light_pink_larkspur"
+                }
+              },
+              {
+                "weight": 2,
+                "data": {
+                  "Name": "flowersoplenty:himalayan_blue_poppy"
+                }
+              },
+              {
+                "weight": 2,
+                "data": {
+                  "Name": "flowersoplenty:australian_cornflower"
+                }
+              },
+              {
+                "weight": 2,
+                "data": {
+                  "Name": "flowersoplenty:albuca_namaquensis"
+                }
+              },
+              {
+                "weight": 2,
+                "data": {
+                  "Name": "flowersoplenty:cactus"
+                }
+              },
+              {
+                "weight": 2,
+                "data": {
+                  "Name": "flowersoplenty:parodia_muricata"
+                }
+              },
+              {
+                "weight": 2,
+                "data": {
+                  "Name": "flowersoplenty:yellow_starthistle"
+                }
+              },
+              {
+                "weight": 2,
+                "data": {
+                  "Name": "flowersoplenty:australian_flame_pea"
+                }
+              },
+              {
+                "weight": 2,
+                "data": {
+                  "Name": "flowersoplenty:orange_australian_flame_pea"
+                }
+              },
+              {
+                "weight": 2,
+                "data": {
+                  "Name": "flowersoplenty:desert_paintbrush"
+                }
+              },
+              {
+                "weight": 2,
+                "data": {
+                  "Name": "flowersoplenty:desert_sturt_pea"
+                }
+              },
+              {
+                "weight": 2,
+                "data": {
+                  "Name": "flowersoplenty:blue_tinsel_lily"
+                }
+              },
+              {
+                "weight": 2,
+                "data": {
+                  "Name": "flowersoplenty:mojave_indigo_bush"
+                }
+              },
+              {
+                "weight": 2,
+                "data": {
+                  "Name": "flowersoplenty:notch_leaf_scorpion_weed"
+                }
+              },
+              {
+                "weight": 2,
+                "data": {
+                  "Name": "flowersoplenty:purple_flag"
+                }
+              },
+              {
+                "weight": 2,
+                "data": {
+                  "Name": "flowersoplenty:owls_clover"
+                }
+              },
+              {
+                "weight": 2,
+                "data": {
+                  "Name": "flowersoplenty:desert_sand_verbena"
+                }
+              },
+              {
+                "weight": 2,
+                "data": {
+                  "Name": "flowersoplenty:pink_desert_sand_verbena"
+                }
+              },
+              {
+                "weight": 2,
+                "data": {
+                  "Name": "flowersoplenty:engelmanns_hedgehog_cactus"
+                }
+              },
+              {
+                "weight": 2,
+                "data": {
+                  "Name": "flowersoplenty:devils_claw"
+                }
+              },
+              {
+                "weight": 2,
+                "data": {
+                  "Name": "flowersoplenty:tumble_weed"
+                }
+              },
+              {
+                "weight": 2,
+                "data": {
+                  "Name": "flowersoplenty:dry_shrub"
+                }
+              },
+              {
+                "weight": 2,
+                "data": {
+                  "Name": "flowersoplenty:white_tinsel_flower"
+                }
+              },
+              {
+                "weight": 2,
+                "data": {
+                  "Name": "flowersoplenty:yucca_flower"
+                }
+              },
+              {
+                "weight": 2,
+                "data": {
+                  "Name": "flowersoplenty:yucca"
+                }
+              },
+              {
+                "weight": 2,
+                "data": {
+                  "Name": "flowersoplenty:ocotillo"
+                }
+              },
+              {
+                "weight": 2,
+                "data": {
+                  "Name": "flowersoplenty:tall_cactus"
+                }
+              },
+              {
+                "weight": 2,
+                "data": {
+                  "Name": "flowersoplenty:baby_blue_eyes"
+                }
+              },
+              {
+                "weight": 2,
+                "data": {
+                  "Name": "flowersoplenty:baby_blue_eyes_small"
+                }
+              },
+              {
+                "weight": 2,
+                "data": {
+                  "Name": "flowersoplenty:beach_grass"
+                }
+              },
+              {
+                "weight": 2,
+                "data": {
+                  "Name": "flowersoplenty:live_forever_leaves"
+                }
+              },
+              {
+                "weight": 2,
+                "data": {
+                  "Name": "flowersoplenty:live_forever"
+                }
+              },
+              {
+                "weight": 2,
+                "data": {
+                  "Name": "flowersoplenty:coastal_lotus"
+                }
+              },
+              {
+                "weight": 2,
+                "data": {
+                  "Name": "flowersoplenty:silver_carpet"
+                }
+              },
+              {
+                "weight": 2,
+                "data": {
+                  "Name": "flowersoplenty:beach_strawberry"
+                }
+              },
+              {
+                "weight": 2,
+                "data": {
+                  "Name": "flowersoplenty:cinquefoil"
+                }
+              },
+              {
+                "weight": 2,
+                "data": {
+                  "Name": "flowersoplenty:california_sea_thrift"
+                }
+              },
+              {
+                "weight": 2,
+                "data": {
+                  "Name": "flowersoplenty:blue_eyes_grass"
+                }
+              },
+              {
+                "weight": 2,
+                "data": {
+                  "Name": "flowersoplenty:creeping_thyme"
+                }
+              },
+              {
+                "weight": 2,
+                "data": {
+                  "Name": "flowersoplenty:wooly_thyme"
+                }
+              },
+              {
+                "weight": 2,
+                "data": {
+                  "Name": "flowersoplenty:buckwheat"
+                }
+              },
+              {
+                "weight": 2,
+                "data": {
+                  "Name": "flowersoplenty:rock_rose"
+                }
+              },
+              {
+                "weight": 2,
+                "data": {
+                  "Name": "flowersoplenty:rock_rose_orchid"
+                }
+              },
+              {
+                "weight": 2,
+                "data": {
+                  "Name": "flowersoplenty:buckwheat_red"
+                }
+              },
+              {
+                "weight": 2,
+                "data": {
+                  "Name": "flowersoplenty:jewel_of_the_desert"
+                }
+              },
+              {
+                "weight": 2,
+                "data": {
+                  "Name": "flowersoplenty:basket_stinkhorn"
+                }
+              }
+            ]
+          }
+        }
+      },
+      "placement": [
+        {
+          "type": "minecraft:block_predicate_filter",
+          "predicate": {
+            "type": "minecraft:all_of",
+            "predicates": [
+              {
+                "type": "minecraft:matching_blocks",
+                "blocks": [
+                  "minecraft:air"
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

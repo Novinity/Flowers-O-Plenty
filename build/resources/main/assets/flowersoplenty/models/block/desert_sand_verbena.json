@@ -1,0 +1,6 @@
+{
+    "textures": {
+        "cross": "flowersoplenty:block/desert_sand_verbena"
+    }, 
+    "parent": "block/cross"
+}

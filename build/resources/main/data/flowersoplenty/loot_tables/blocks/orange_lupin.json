@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "flowersoplenty:orange_lupin"
+        }
+      ],
+      "name": "flowersoplenty:orange_lupin",
+      "rolls": 1.0
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+    "textures": {
+        "cross": "flowersoplenty:block/white_daffodil"
+    }, 
+    "parent": "block/cross"
+}

@@ -1,0 +1,6 @@
+{
+    "textures": {
+        "cross": "flowersoplenty:block/jewel_of_the_desert"
+    }, 
+    "parent": "block/cross"
+}

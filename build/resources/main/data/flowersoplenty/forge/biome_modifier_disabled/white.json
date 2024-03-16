@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#flowersoplenty:is_white",
+  "features": "flowersoplenty:white",
+  "step": "vegetal_decoration"
+}

@@ -1,0 +1,6 @@
+{
+    "textures": {
+        "cross": "flowersoplenty:block/nasturtium_pink"
+    }, 
+    "parent": "block/cross"
+}

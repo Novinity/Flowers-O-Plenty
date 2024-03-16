@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#flowersoplenty:is_venus",
+  "features": "flowersoplenty:venus",
+  "step": "vegetal_decoration"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "flowersoplenty:orange_australian_flame_pea"
+    },
+    {
+      "item": "flowersoplenty:rubber_band"
+    }
+  ],
+  "result": {
+    "item": "flowersoplenty:bouquet",
+    "count": 1
+  }
+}

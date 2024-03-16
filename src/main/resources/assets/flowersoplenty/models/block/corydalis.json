@@ -1,0 +1,6 @@
+{
+    "textures": {
+        "cross": "flowersoplenty:block/corydalis"
+    }, 
+    "parent": "block/cross"
+}

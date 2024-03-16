@@ -1,0 +1,6 @@
+{
+    "textures": {
+        "cross": "flowersoplenty:block/echinacea"
+    }, 
+    "parent": "block/cross"
+}

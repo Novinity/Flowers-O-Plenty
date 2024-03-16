@@ -1,0 +1,6 @@
+{
+    "textures": {
+        "cross": "flowersoplenty:block/purple_larkspur_bottom"
+    }, 
+    "parent": "block/cross"
+}

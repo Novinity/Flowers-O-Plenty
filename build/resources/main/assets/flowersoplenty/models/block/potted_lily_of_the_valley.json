@@ -1,0 +1,6 @@
+{
+    "textures": {
+        "plant": "flowersoplenty:block/lily_of_the_valley"
+    },
+    "parent": "block/flower_pot_cross"
+}

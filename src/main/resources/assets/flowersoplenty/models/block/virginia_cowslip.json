@@ -1,0 +1,6 @@
+{
+    "textures": {
+        "cross": "flowersoplenty:block/virginia_cowslip"
+    }, 
+    "parent": "block/cross"
+}

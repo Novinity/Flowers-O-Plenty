@@ -1,0 +1,6 @@
+{
+    "textures": {
+        "plant": "flowersoplenty:block/snapdragon_pink"
+    },
+    "parent": "block/flower_pot_cross"
+}

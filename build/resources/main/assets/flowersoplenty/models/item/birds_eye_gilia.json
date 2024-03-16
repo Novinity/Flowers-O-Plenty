@@ -1,0 +1,6 @@
+{
+    "textures": {
+        "layer0": "flowersoplenty:block/birds_eye_gilia"
+    }, 
+    "parent": "item/generated"
+}

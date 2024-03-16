@@ -1,0 +1,6 @@
+{
+    "textures": {
+        "layer0": "flowersoplenty:block/venus_fly_trap"
+    }, 
+    "parent": "item/generated"
+}

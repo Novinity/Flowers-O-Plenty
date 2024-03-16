@@ -1,0 +1,6 @@
+{
+    "textures": {
+        "cross": "flowersoplenty:block/lewisia"
+    }, 
+    "parent": "block/cross"
+}

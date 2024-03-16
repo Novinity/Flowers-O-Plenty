@@ -1,0 +1,6 @@
+{
+    "textures": {
+        "cross": "flowersoplenty:block/maroon_mallow"
+    }, 
+    "parent": "block/cross"
+}

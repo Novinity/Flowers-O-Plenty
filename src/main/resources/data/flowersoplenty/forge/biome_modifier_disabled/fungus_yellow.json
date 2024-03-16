@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#flowersoplenty:is_fungus_yellow",
+  "features": "flowersoplenty:fungus_yellow",
+  "step": "vegetal_decoration"
+}

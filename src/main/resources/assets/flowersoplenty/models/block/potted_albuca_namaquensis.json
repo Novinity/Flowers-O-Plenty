@@ -1,0 +1,6 @@
+{
+    "textures": {
+        "plant": "flowersoplenty:block/albuca_namaquensis"
+    },
+    "parent": "block/flower_pot_cross"
+}

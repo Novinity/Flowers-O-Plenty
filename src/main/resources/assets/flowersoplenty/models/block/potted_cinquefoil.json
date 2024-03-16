@@ -1,0 +1,6 @@
+{
+    "textures": {
+        "plant": "flowersoplenty:block/cinquefoil"
+    },
+    "parent": "block/flower_pot_cross"
+}

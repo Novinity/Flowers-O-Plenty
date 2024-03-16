@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "flowersoplenty:duckweed_bunch"
+        }
+      ],
+      "name": "flowersoplenty:duckweed_bunch",
+      "rolls": 1.0
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes":"minecraft:sparse_jungle",
+  "features": "flowersoplenty:magenta",
+  "step": "vegetal_decoration"
+}

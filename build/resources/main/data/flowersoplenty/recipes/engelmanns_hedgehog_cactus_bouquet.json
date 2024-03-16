@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "flowersoplenty:engelmanns_hedgehog_cactus"
+    },
+    {
+      "item": "flowersoplenty:rubber_band"
+    }
+  ],
+  "result": {
+    "item": "flowersoplenty:bouquet",
+    "count": 1
+  }
+}

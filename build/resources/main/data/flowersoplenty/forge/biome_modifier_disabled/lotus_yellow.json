@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#flowersoplenty:is_lotus_yellow",
+  "features": "flowersoplenty:lotus_yellow",
+  "step": "vegetal_decoration"
+}

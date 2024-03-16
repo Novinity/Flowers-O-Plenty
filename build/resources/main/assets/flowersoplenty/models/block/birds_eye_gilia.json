@@ -1,0 +1,6 @@
+{
+    "textures": {
+        "cross": "flowersoplenty:block/birds_eye_gilia"
+    }, 
+    "parent": "block/cross"
+}

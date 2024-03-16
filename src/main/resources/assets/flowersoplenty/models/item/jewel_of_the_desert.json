@@ -1,0 +1,6 @@
+{
+    "textures": {
+        "layer0": "flowersoplenty:block/jewel_of_the_desert"
+    }, 
+    "parent": "item/generated"
+}

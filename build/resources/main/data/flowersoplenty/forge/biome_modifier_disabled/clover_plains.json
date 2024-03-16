@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "minecraft:plains",
+  "features": "flowersoplenty:clover_plains",
+  "step": "vegetal_decoration"
+}

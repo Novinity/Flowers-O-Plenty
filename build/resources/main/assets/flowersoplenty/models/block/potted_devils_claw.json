@@ -1,0 +1,6 @@
+{
+    "textures": {
+        "plant": "flowersoplenty:block/devils_claw"
+    },
+    "parent": "block/flower_pot_cross"
+}

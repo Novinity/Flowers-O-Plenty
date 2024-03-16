@@ -1,0 +1,6 @@
+{
+    "textures": {
+        "layer0": "flowersoplenty:block/tumble_weed"
+    }, 
+    "parent": "item/generated"
+}

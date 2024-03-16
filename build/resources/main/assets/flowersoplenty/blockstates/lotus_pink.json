@@ -1,0 +1,10 @@
+{
+    "variants": {
+        "": [
+            { "model": "flowersoplenty:block/lotus_pink" },
+            { "model": "flowersoplenty:block/lotus_pink", "y": 90 },
+            { "model": "flowersoplenty:block/lotus_pink", "y": 180 },
+            { "model": "flowersoplenty:block/lotus_pink", "y": 270 }
+        ]
+    }
+}

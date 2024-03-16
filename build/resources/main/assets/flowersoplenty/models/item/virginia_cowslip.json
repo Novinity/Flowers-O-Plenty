@@ -1,0 +1,6 @@
+{
+    "textures": {
+        "layer0": "flowersoplenty:block/virginia_cowslip"
+    }, 
+    "parent": "item/generated"
+}

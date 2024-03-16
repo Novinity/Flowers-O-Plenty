@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "flowersoplenty:devils_fingers_single"
+        }
+      ],
+      "name": "flowersoplenty:devils_fingers_single",
+      "rolls": 1.0
+    }
+  ]
+}

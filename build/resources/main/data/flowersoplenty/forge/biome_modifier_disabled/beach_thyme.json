@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#flowersoplenty:is_beach_thyme",
+  "features": "flowersoplenty:beach_thyme",
+  "step": "vegetal_decoration"
+}

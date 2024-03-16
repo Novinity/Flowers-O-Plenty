@@ -1,0 +1,6 @@
+{
+    "textures": {
+        "layer0": "flowersoplenty:block/blue_tinsel_lily"
+    }, 
+    "parent": "item/generated"
+}

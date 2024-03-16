@@ -1,0 +1,6 @@
+{
+    "textures": {
+        "cross": "flowersoplenty:block/medium_blue_lobelia"
+    }, 
+    "parent": "block/cross"
+}

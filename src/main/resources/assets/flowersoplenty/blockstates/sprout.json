@@ -1,0 +1,10 @@
+{
+    "variants": {
+        "": [
+            { "model": "flowersoplenty:block/sprout" },
+            { "model": "flowersoplenty:block/sprout", "y": 90 },
+            { "model": "flowersoplenty:block/sprout", "y": 180 },
+            { "model": "flowersoplenty:block/sprout", "y": 270 }
+        ]
+    }
+}

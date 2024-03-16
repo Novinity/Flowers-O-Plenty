@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "flowersoplenty:live_forever_leaves"
+        }
+      ],
+      "name": "flowersoplenty:live_forever_leaves",
+      "rolls": 1.0
+    }
+  ]
+}

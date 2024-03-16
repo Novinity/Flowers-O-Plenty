@@ -1,0 +1,6 @@
+{
+    "textures": {
+        "plant": "flowersoplenty:block/blue_tinsel_lily"
+    },
+    "parent": "block/flower_pot_cross"
+}

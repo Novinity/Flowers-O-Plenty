@@ -1,0 +1,6 @@
+{
+    "textures": {
+        "layer0": "flowersoplenty:block/lady_slipper_orchid"
+    }, 
+    "parent": "item/generated"
+}

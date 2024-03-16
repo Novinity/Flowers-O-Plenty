@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "flowersoplenty:light_pink_geranium"
+        }
+      ],
+      "name": "flowersoplenty:light_pink_geranium",
+      "rolls": 1.0
+    }
+  ]
+}

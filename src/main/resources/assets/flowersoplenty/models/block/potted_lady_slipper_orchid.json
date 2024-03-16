@@ -1,0 +1,6 @@
+{
+    "textures": {
+        "plant": "flowersoplenty:block/lady_slipper_orchid"
+    },
+    "parent": "block/flower_pot_cross"
+}

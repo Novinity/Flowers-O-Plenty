@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "flowersoplenty:purple_african_daisy"
+        }
+      ],
+      "name": "flowersoplenty:purple_african_daisy",
+      "rolls": 1.0
+    }
+  ]
+}

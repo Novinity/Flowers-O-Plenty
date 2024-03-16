@@ -1,0 +1,51 @@
+{
+    "__comment": "Model & Textures by c0_0ry",
+    "textures": {
+        "particle": "flowersoplenty:block/yellow_patches",
+        "0": "flowersoplenty:block/yellow_patches"
+    },
+    "elements": [
+        {
+            "name": "Right 45",
+            "from": [ 0.0, 0.0, 8.0 ], 
+            "to": [ 16.0, 16.0, 8.0 ], 
+            "shade": false,
+            "rotation": { "origin": [ 8.0, 8.0, 8.0 ], "axis": "y", "angle": 45.0 },
+            "faces": {
+                "north": { "texture": "#0", "uv": [ 0.0, 0.0, 16.0, 16.0 ] },
+                "south": { "texture": "#0", "uv": [ 0.0, 0.0, 16.0, 16.0 ] }
+            }
+        },
+        {
+            "name": "Left 45",
+            "from": [ 0.0, 0.0, 8.0 ], 
+            "to": [ 16.0, 16.0, 8.0 ], 
+            "shade": false,
+            "rotation": { "origin": [ 8.0, 8.0, 8.0 ], "axis": "y", "angle": -45.0 },
+            "faces": {
+                "north": { "texture": "#0", "uv": [ 0.0, 0.0, 16.0, 16.0 ] },
+                "south": { "texture": "#0", "uv": [ 0.0, 0.0, 16.0, 16.0 ] }
+            }
+        },
+        {
+            "name": "Horizontal",
+            "from": [ 0.0, 0.0, 8.0 ], 
+            "to": [ 16.0, 16.0, 8.0 ], 
+            "shade": false,
+            "faces": {
+                "north": { "texture": "#0", "uv": [ 0.0, 0.0, 16.0, 16.0 ] },
+                "south": { "texture": "#0", "uv": [ 0.0, 0.0, 16.0, 16.0 ] }
+            }
+        },
+        {
+            "name": "Vertical",
+            "from": [ 8.0, 0.0, 0.0 ], 
+            "to": [ 8.0, 16.0, 16.0 ], 
+            "shade": false,
+            "faces": {
+                "east": { "texture": "#0", "uv": [ 0.0, 0.0, 16.0, 16.0 ] },
+                "west": { "texture": "#0", "uv": [ 0.0, 0.0, 16.0, 16.0 ] }
+            }
+        }
+    ]
+}

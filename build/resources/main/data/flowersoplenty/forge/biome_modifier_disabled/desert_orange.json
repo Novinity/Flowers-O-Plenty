@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#flowersoplenty:is_desert_orange",
+  "features": "flowersoplenty:desert_orange",
+  "step": "vegetal_decoration"
+}

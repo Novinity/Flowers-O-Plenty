@@ -1,0 +1,6 @@
+{
+    "textures": {
+        "plant": "flowersoplenty:block/maroon_mallow"
+    },
+    "parent": "block/flower_pot_cross"
+}

@@ -1,0 +1,6 @@
+{
+    "textures": {
+        "cross": "flowersoplenty:block/devils_claw_vine"
+    }, 
+    "parent": "block/cross"
+}

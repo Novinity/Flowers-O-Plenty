@@ -1,0 +1,6 @@
+{
+    "textures": {
+        "cross": "flowersoplenty:block/sundance_kid_sunflower_top"
+    }, 
+    "parent": "block/cross"
+}

@@ -1,0 +1,10 @@
+{
+    "variants": {
+        "half=lower": {
+            "model": "flowersoplenty:block/tall_lupin_bottom"
+        }, 
+        "half=upper": {
+            "model": "flowersoplenty:block/tall_lupin_top"
+        }
+    }
+}

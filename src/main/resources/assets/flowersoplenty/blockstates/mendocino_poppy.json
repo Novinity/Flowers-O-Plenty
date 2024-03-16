@@ -1,0 +1,10 @@
+{
+    "variants": {
+        "half=lower": {
+            "model": "flowersoplenty:block/mendocino_poppy_bottom"
+        }, 
+        "half=upper": {
+            "model": "flowersoplenty:block/mendocino_poppy_top"
+        }
+    }
+}

@@ -1,0 +1,6 @@
+{
+    "textures": {
+        "plant": "flowersoplenty:block/cyan_hyacinth"
+    },
+    "parent": "block/flower_pot_cross"
+}

@@ -1,0 +1,6 @@
+{
+    "textures": {
+        "layer0": "flowersoplenty:item/staked_bright_magenta_sweet_peas"
+    }, 
+    "parent": "item/generated"
+}

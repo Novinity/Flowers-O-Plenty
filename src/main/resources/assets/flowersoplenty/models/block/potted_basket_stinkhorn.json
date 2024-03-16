@@ -1,0 +1,6 @@
+{
+    "textures": {
+        "plant": "flowersoplenty:block/basket_stinkhorn"
+    },
+    "parent": "block/flower_pot_cross"
+}

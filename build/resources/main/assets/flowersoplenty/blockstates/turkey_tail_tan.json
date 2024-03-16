@@ -1,0 +1,10 @@
+{
+    "variants": {
+        "": [
+            { "model": "flowersoplenty:block/turkey_tail_tan" },
+            { "model": "flowersoplenty:block/turkey_tail_tan", "y": 90 },
+            { "model": "flowersoplenty:block/turkey_tail_tan", "y": 180 },
+            { "model": "flowersoplenty:block/turkey_tail_tan", "y": 270 }
+        ]
+    }
+}

@@ -1,0 +1,6 @@
+{
+    "textures": {
+        "cross": "flowersoplenty:block/magenta_orchid"
+    }, 
+    "parent": "block/cross"
+}

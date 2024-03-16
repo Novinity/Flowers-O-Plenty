@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#flowersoplenty:is_beach_pink",
+  "features": "flowersoplenty:beach_pink",
+  "step": "vegetal_decoration"
+}

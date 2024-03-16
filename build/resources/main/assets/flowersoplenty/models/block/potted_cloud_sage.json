@@ -1,0 +1,6 @@
+{
+    "textures": {
+        "plant": "flowersoplenty:block/cloud_sage"
+    },
+    "parent": "block/flower_pot_cross"
+}

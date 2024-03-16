@@ -1,0 +1,6 @@
+{
+    "textures": {
+        "cross": "flowersoplenty:block/red_geranium"
+    }, 
+    "parent": "block/cross"
+}

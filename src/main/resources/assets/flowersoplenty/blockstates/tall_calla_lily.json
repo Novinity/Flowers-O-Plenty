@@ -1,0 +1,10 @@
+{
+    "variants": {
+        "half=lower": {
+            "model": "flowersoplenty:block/tall_calla_lily_bottom"
+        }, 
+        "half=upper": {
+            "model": "flowersoplenty:block/tall_calla_lily_top"
+        }
+    }
+}

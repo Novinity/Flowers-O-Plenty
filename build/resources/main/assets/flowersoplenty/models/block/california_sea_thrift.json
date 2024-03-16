@@ -1,0 +1,6 @@
+{
+    "textures": {
+        "cross": "flowersoplenty:block/california_sea_thrift"
+    }, 
+    "parent": "block/cross"
+}

@@ -1,0 +1,6 @@
+{
+    "textures": {
+        "layer0": "flowersoplenty:block/purple_african_daisy"
+    }, 
+    "parent": "item/generated"
+}

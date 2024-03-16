@@ -1,0 +1,6 @@
+{
+    "textures": {
+        "cross": "flowersoplenty:block/gloriosa_lily_top"
+    }, 
+    "parent": "block/cross"
+}

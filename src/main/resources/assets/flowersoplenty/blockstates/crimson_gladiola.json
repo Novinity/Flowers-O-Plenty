@@ -1,0 +1,10 @@
+{
+    "variants": {
+        "half=lower": {
+            "model": "flowersoplenty:block/crimson_gladiola_bottom"
+        }, 
+        "half=upper": {
+            "model": "flowersoplenty:block/crimson_gladiola_top"
+        }
+    }
+}

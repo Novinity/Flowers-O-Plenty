@@ -1,0 +1,10 @@
+{
+    "variants": {
+        "half=lower": {
+            "model": "flowersoplenty:block/tall_orange_cosmos_bottom"
+        }, 
+        "half=upper": {
+            "model": "flowersoplenty:block/tall_orange_cosmos_top"
+        }
+    }
+}

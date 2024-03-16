@@ -1,0 +1,6 @@
+{
+    "textures": {
+        "layer0": "flowersoplenty:block/lotus_pink"
+    }, 
+    "parent": "item/generated"
+}

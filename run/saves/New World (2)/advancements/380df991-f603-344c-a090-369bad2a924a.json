@@ -1,0 +1,22 @@
+{
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2024-02-21 11:56:17 +1100"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:snowy_slopes": "2024-02-21 11:57:11 +1100",
+      "minecraft:snowy_taiga": "2024-02-21 11:56:18 +1100",
+      "minecraft:grove": "2024-02-21 11:56:31 +1100",
+      "minecraft:jagged_peaks": "2024-02-21 11:57:13 +1100",
+      "minecraft:forest": "2024-02-21 11:57:00 +1100",
+      "minecraft:flower_forest": "2024-02-21 11:57:23 +1100",
+      "minecraft:meadow": "2024-02-21 11:56:50 +1100",
+      "minecraft:plains": "2024-02-21 11:57:03 +1100"
+    },
+    "done": false
+  },
+  "DataVersion": 3465
+}

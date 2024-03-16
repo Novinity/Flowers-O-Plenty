@@ -1,0 +1,6 @@
+{
+    "textures": {
+        "layer0": "flowersoplenty:block/dried_sunflower_top"
+    }, 
+    "parent": "item/generated"
+}

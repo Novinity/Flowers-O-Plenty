@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#flowersoplenty:is_cranberry",
+  "features": "flowersoplenty:cranberry",
+  "step": "vegetal_decoration"
+}

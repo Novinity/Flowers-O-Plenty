@@ -1,0 +1,10 @@
+{
+    "variants": {
+        "": [
+            { "model": "flowersoplenty:block/jack_o_lantern_light" },
+            { "model": "flowersoplenty:block/jack_o_lantern_light", "y": 90 },
+            { "model": "flowersoplenty:block/jack_o_lantern_light", "y": 180 },
+            { "model": "flowersoplenty:block/jack_o_lantern_light", "y": 270 }
+        ]
+    }
+}

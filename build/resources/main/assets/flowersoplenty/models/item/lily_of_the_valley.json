@@ -1,0 +1,6 @@
+{
+    "textures": {
+        "layer0": "flowersoplenty:block/lily_of_the_valley"
+    }, 
+    "parent": "item/generated"
+}

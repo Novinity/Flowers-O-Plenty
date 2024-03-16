@@ -1,0 +1,10 @@
+{
+    "variants": {
+        "half=lower": {
+            "model": "flowersoplenty:block/iris_bottom"
+        }, 
+        "half=upper": {
+            "model": "flowersoplenty:block/iris_top"
+        }
+    }
+}

@@ -1,0 +1,6 @@
+{
+    "textures": {
+        "plant": "flowersoplenty:block/golden_bean"
+    },
+    "parent": "block/flower_pot_cross"
+}

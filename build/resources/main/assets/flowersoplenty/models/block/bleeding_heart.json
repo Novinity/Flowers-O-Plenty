@@ -1,0 +1,6 @@
+{
+    "textures": {
+        "cross": "flowersoplenty:block/bleeding_heart"
+    }, 
+    "parent": "block/cross"
+}

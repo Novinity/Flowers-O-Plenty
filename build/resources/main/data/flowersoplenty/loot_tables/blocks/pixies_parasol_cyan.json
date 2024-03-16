@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "flowersoplenty:pixies_parasol_cyan"
+        }
+      ],
+      "name": "flowersoplenty:pixies_parasol_cyan",
+      "rolls": 1.0
+    }
+  ]
+}

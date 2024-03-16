@@ -1,0 +1,6 @@
+{
+    "textures": {
+        "plant": "flowersoplenty:block/birds_eye_gilia"
+    },
+    "parent": "block/flower_pot_cross"
+}

@@ -1,0 +1,6 @@
+{
+    "textures": {
+        "cross": "flowersoplenty:block/mexican_sage"
+    }, 
+    "parent": "block/cross"
+}

@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "minecraft:stony_shore",
+  "features": "flowersoplenty:beach_red",
+  "step": "vegetal_decoration"
+}

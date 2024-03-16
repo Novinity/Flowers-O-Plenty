@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "flowersoplenty:lady_slipper_orchid"
+        }
+      ],
+      "name": "flowersoplenty:lady_slipper_orchid",
+      "rolls": 1.0
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "flowersoplenty:block/raccoon_grape_stage3"
+  }
+}

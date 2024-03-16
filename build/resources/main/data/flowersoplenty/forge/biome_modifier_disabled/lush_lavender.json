@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "minecraft:lush_caves",
+  "features": "flowersoplenty:lush_lavender",
+  "step": "vegetal_decoration"
+}

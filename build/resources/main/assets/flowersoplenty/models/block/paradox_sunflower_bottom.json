@@ -1,0 +1,6 @@
+{
+    "textures": {
+        "cross": "flowersoplenty:block/paradox_sunflower_bottom"
+    }, 
+    "parent": "block/cross"
+}

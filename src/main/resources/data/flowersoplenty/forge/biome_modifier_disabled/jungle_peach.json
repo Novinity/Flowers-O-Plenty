@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#flowersoplenty:is_jungle_peach",
+  "features": "flowersoplenty:jungle_peach",
+  "step": "vegetal_decoration"
+}

@@ -1,0 +1,9 @@
+{
+  "values": [
+    "minecraft:forest",
+    "minecraft:mangrove_swamp",
+    "#minecraft:is_savanna",
+    "minecraft:dark_forest",
+    "minecraft:mushroom_fields"
+  ]
+}

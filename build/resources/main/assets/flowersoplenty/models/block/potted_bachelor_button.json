@@ -1,0 +1,6 @@
+{
+    "textures": {
+        "plant": "flowersoplenty:block/bachelor_button"
+    },
+    "parent": "block/flower_pot_cross"
+}

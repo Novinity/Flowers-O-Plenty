@@ -1,0 +1,6 @@
+{
+    "textures": {
+        "cross": "flowersoplenty:block/venus_fly_trap"
+    }, 
+    "parent": "block/cross"
+}

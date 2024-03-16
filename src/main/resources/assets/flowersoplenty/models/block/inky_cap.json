@@ -1,0 +1,6 @@
+{
+    "textures": {
+        "cross": "flowersoplenty:block/inky_cap"
+    }, 
+    "parent": "block/cross"
+}

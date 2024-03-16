@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "flowersoplenty:pink_desert_sand_verbena"
+        }
+      ],
+      "name": "flowersoplenty:pink_desert_sand_verbena",
+      "rolls": 1.0
+    }
+  ]
+}

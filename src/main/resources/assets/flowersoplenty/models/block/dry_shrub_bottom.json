@@ -1,0 +1,6 @@
+{
+    "textures": {
+        "cross": "flowersoplenty:block/dry_shrub_bottom"
+    }, 
+    "parent": "block/cross"
+}

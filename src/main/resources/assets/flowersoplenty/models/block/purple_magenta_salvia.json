@@ -1,0 +1,6 @@
+{
+    "textures": {
+        "cross": "flowersoplenty:block/purple_magenta_salvia"
+    }, 
+    "parent": "block/cross"
+}

@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#minecraft:is_overworld",
+  "features": "flowersoplenty:fungus_lantern",
+  "step": "vegetal_decoration"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "flowersoplenty:snapdragon_white"
+        }
+      ],
+      "name": "flowersoplenty:snapdragon_white",
+      "rolls": 1.0
+    }
+  ]
+}

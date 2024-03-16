@@ -1,0 +1,6 @@
+{
+    "textures": {
+        "cross": "flowersoplenty:block/dark_blue_borage"
+    }, 
+    "parent": "block/cross"
+}

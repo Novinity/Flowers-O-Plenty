@@ -1,0 +1,6 @@
+{
+    "textures": {
+        "cross": "flowersoplenty:block/morning_glory"
+    }, 
+    "parent": "block/cross"
+}

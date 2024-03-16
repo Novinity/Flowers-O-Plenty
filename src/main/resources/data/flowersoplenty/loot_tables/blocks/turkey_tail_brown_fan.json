@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "flowersoplenty:turkey_tail_brown_fan"
+        }
+      ],
+      "name": "flowersoplenty:turkey_tail_brown_fan",
+      "rolls": 1.0
+    }
+  ]
+}

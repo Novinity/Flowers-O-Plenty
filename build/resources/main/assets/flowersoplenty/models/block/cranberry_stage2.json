@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "flowersoplenty:block/cranberry_stage2"
+  }
+}

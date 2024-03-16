@@ -1,0 +1,6 @@
+{
+    "textures": {
+        "cross": "flowersoplenty:block/engelmanns_hedgehog_cactus"
+    }, 
+    "parent": "block/cross"
+}

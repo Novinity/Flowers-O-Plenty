@@ -1,0 +1,19 @@
+{
+    "variants": {
+        "facing=east": {
+            "model": "flowersoplenty:block/red_reishi_fan",
+            "y": 90
+        },
+        "facing=north": {
+            "model": "flowersoplenty:block/red_reishi_fan"
+        },
+        "facing=south": {
+            "model": "flowersoplenty:block/red_reishi_fan",
+            "y": 180
+        },
+        "facing=west": {
+            "model": "flowersoplenty:block/red_reishi_fan",
+            "y": 270
+        }
+    }
+}

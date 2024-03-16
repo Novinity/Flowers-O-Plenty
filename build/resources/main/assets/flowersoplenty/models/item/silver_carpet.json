@@ -1,0 +1,6 @@
+{
+    "textures": {
+        "layer0": "flowersoplenty:block/silver_carpet"
+    }, 
+    "parent": "item/generated"
+}

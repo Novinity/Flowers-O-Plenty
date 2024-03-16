@@ -1,0 +1,6 @@
+{
+    "textures": {
+        "cross": "flowersoplenty:block/mixed_zinnia"
+    }, 
+    "parent": "block/cross"
+}

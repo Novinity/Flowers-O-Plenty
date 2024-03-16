@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "flowersoplenty:red_reishi_fan"
+        }
+      ],
+      "name": "flowersoplenty:red_reishi_fan",
+      "rolls": 1.0
+    }
+  ]
+}

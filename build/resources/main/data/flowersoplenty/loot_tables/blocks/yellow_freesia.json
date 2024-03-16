@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "flowersoplenty:yellow_freesia"
+        }
+      ],
+      "name": "flowersoplenty:yellow_freesia",
+      "rolls": 1.0
+    }
+  ]
+}

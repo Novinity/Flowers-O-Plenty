@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "flowersoplenty:purple_flag"
+        }
+      ],
+      "name": "flowersoplenty:purple_flag",
+      "rolls": 1.0
+    }
+  ]
+}

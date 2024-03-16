@@ -1,0 +1,6 @@
+{
+    "textures": {
+        "layer0": "flowersoplenty:block/yellow_patches"
+    }, 
+    "parent": "item/generated"
+}

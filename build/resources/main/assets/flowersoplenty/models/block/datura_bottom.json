@@ -1,0 +1,6 @@
+{
+    "textures": {
+        "cross": "flowersoplenty:block/datura_bottom"
+    }, 
+    "parent": "block/cross"
+}

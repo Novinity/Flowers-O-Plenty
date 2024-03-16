@@ -1,0 +1,6 @@
+{
+    "textures": {
+        "layer0": "flowersoplenty:block/baby_blue_eyes_small"
+    }, 
+    "parent": "item/generated"
+}

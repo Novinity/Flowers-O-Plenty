@@ -1,0 +1,21 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "flowersoplenty:block/stone_path"
+      },
+      {
+        "model": "flowersoplenty:block/stone_path",
+        "y": 90
+      },
+      {
+        "model": "flowersoplenty:block/stone_path",
+        "y": 180
+      },
+      {
+        "model": "flowersoplenty:block/stone_path",
+        "y": 270
+      }
+    ]
+  }
+}

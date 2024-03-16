@@ -1,0 +1,9 @@
+{
+  "values": [
+    "#minecraft:is_taiga",
+    "#minecraft:is_hill",
+    "minecraft:meadow",
+    "minecraft:birch_forest",
+    "minecraft:old_growth_birch_forest"
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/tinted_cross",
+  "textures": {
+    "cross": "flowersoplenty:block/bamboo_groove_stage0"
+  }
+}

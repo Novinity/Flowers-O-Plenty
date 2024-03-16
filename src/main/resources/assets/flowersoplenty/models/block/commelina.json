@@ -1,0 +1,6 @@
+{
+    "textures": {
+        "cross": "flowersoplenty:block/commelina"
+    }, 
+    "parent": "block/cross"
+}

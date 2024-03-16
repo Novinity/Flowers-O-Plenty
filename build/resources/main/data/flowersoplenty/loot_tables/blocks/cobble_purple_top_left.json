@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "flowersoplenty:cobble_purple_top_left"
+        }
+      ],
+      "name": "flowersoplenty:cobble_purple_top_left",
+      "rolls": 1.0
+    }
+  ]
+}

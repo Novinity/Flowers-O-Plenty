@@ -1,0 +1,6 @@
+{
+    "textures": {
+        "plant": "flowersoplenty:block/parodia_muricata"
+    },
+    "parent": "block/flower_pot_cross"
+}

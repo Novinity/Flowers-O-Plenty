@@ -1,0 +1,6 @@
+{
+    "textures": {
+        "layer0": "flowersoplenty:block/tall_cosmos_top"
+    }, 
+    "parent": "item/generated"
+}

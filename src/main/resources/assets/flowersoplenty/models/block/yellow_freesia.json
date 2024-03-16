@@ -1,0 +1,6 @@
+{
+    "textures": {
+        "cross": "flowersoplenty:block/yellow_freesia"
+    }, 
+    "parent": "block/cross"
+}

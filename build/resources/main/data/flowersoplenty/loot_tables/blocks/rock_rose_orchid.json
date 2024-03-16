@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "flowersoplenty:rock_rose_orchid"
+        }
+      ],
+      "name": "flowersoplenty:rock_rose_orchid",
+      "rolls": 1.0
+    }
+  ]
+}

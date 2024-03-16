@@ -1,0 +1,10 @@
+{
+    "variants": {
+        "": [
+            { "model": "flowersoplenty:block/duckweed_bunch" },
+            { "model": "flowersoplenty:block/duckweed_bunch", "y": 90 },
+            { "model": "flowersoplenty:block/duckweed_bunch", "y": 180 },
+            { "model": "flowersoplenty:block/duckweed_bunch", "y": 270 }
+        ]
+    }
+}

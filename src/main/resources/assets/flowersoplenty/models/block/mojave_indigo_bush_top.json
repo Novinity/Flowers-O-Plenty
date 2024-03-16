@@ -1,0 +1,6 @@
+{
+    "textures": {
+        "cross": "flowersoplenty:block/mojave_indigo_bush_top"
+    }, 
+    "parent": "block/cross"
+}
