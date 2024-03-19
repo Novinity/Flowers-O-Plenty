@@ -1,0 +1,7 @@
+{
+    "textures": {
+        "top": "flowersoplenty:block/datura_top",
+        "bottom": "flowersoplenty:block/datura_bottom"
+    },
+    "parent": "flowersoplenty:block/tall_flower_pot_cross"
+}

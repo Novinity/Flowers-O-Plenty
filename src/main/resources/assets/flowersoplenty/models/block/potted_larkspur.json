@@ -1,0 +1,7 @@
+{
+    "textures": {
+        "top": "flowersoplenty:block/larkspur_top",
+        "bottom": "flowersoplenty:block/larkspur_bottom"
+    },
+    "parent": "flowersoplenty:block/tall_flower_pot_cross"
+}

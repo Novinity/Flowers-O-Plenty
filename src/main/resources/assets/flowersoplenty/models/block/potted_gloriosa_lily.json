@@ -1,0 +1,7 @@
+{
+    "textures": {
+        "top": "flowersoplenty:block/gloriosa_lily_top",
+        "bottom": "flowersoplenty:block/gloriosa_lily_bottom"
+    },
+    "parent": "flowersoplenty:block/tall_flower_pot_cross"
+}
