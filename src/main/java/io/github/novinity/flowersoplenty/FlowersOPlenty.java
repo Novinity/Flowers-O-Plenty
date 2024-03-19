@@ -30,6 +30,8 @@ public class FlowersOPlenty {
         CreativeTabInit.TABS.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
+
+        LOGGER.info("Flowers O' Plenty online!");
     }
 
     private void clientSetup(final FMLClientSetupEvent event) {

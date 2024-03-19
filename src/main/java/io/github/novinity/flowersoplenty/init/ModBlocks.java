@@ -2,10 +2,8 @@ package io.github.novinity.flowersoplenty.init;
 
 import io.github.novinity.flowersoplenty.FlowersOPlenty;
 import net.minecraft.world.effect.MobEffects;
-import net.minecraft.world.flag.FeatureFlag;
 import net.minecraft.world.level.block.*;
 import net.minecraft.world.level.block.state.BlockBehaviour;
-import net.minecraft.world.level.material.PushReaction;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -205,6 +203,7 @@ public class ModBlocks {
     public static final RegistryObject<Block> POTTED_RED_GERANIUM = BLOCKS.register("potted_red_geranium",
             () -> new FlowerPotBlock(ModBlocks.RED_GERANIUM.get(),
                     BlockBehaviour.Properties.copy(Blocks.POTTED_DANDELION).noOcclusion()));
+
     public static final RegistryObject<Block> POTTED_RED_POPPY = BLOCKS.register("potted_red_poppy",
             () -> new FlowerPotBlock(ModBlocks.RED_POPPY.get(),
                     BlockBehaviour.Properties.copy(Blocks.POTTED_DANDELION).noOcclusion()));

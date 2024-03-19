@@ -1,9 +1,9 @@
 Manifest-Version: 1.0
-Implementation-Title: FlowersOPlenty
-Implementation-Version: 1.3
-Specification-Vendor: Novinity
 Specification-Title: flowersoplenty
-Implementation-Timestamp: 2024-03-19T18:01:57+1100
+Specification-Vendor: Novinity
 Specification-Version: 1
+Implementation-Title: FlowersOPlenty
+Implementation-Version: 1.3.2
 Implementation-Vendor: Novinity
+Implementation-Timestamp: 2024-03-20T09:29:51+1100
 
