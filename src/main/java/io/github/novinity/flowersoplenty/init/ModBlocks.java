@@ -2,8 +2,10 @@ package io.github.novinity.flowersoplenty.init;
 
 import io.github.novinity.flowersoplenty.FlowersOPlenty;
 import net.minecraft.world.effect.MobEffects;
+import net.minecraft.world.flag.FeatureFlag;
 import net.minecraft.world.level.block.*;
 import net.minecraft.world.level.block.state.BlockBehaviour;
+import net.minecraft.world.level.material.PushReaction;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -201,519 +203,516 @@ public class ModBlocks {
     public static final RegistryObject<FlowerBlock> BASKET_STINKHORN = BLOCKS.register("basket_stinkhorn", () -> new FlowerBlock(MobEffects.DIG_SPEED, 300, BlockBehaviour.Properties.copy(Blocks.DANDELION)));
 
     public static final RegistryObject<Block> POTTED_RED_GERANIUM = BLOCKS.register("potted_red_geranium",
-            () -> new FlowerPotBlock(null, ModBlocks.RED_GERANIUM,
+            () -> new FlowerPotBlock(ModBlocks.RED_GERANIUM.get(),
                     BlockBehaviour.Properties.copy(Blocks.POTTED_DANDELION).noOcclusion()));
     public static final RegistryObject<Block> POTTED_RED_POPPY = BLOCKS.register("potted_red_poppy",
-            () -> new FlowerPotBlock(null, ModBlocks.RED_POPPY,
+            () -> new FlowerPotBlock(ModBlocks.RED_POPPY.get(),
                     BlockBehaviour.Properties.copy(Blocks.POTTED_DANDELION).noOcclusion()));
     public static final RegistryObject<Block> POTTED_RED_CLOVER = BLOCKS.register("potted_red_clover",
-            () -> new FlowerPotBlock(null, ModBlocks.RED_CLOVER,
+            () -> new FlowerPotBlock(ModBlocks.RED_CLOVER.get(),
                     BlockBehaviour.Properties.copy(Blocks.POTTED_DANDELION).noOcclusion()));
     public static final RegistryObject<Block> POTTED_RED_FREESIA = BLOCKS.register("potted_red_freesia",
-            () -> new FlowerPotBlock(null, ModBlocks.RED_FREESIA,
+            () -> new FlowerPotBlock(ModBlocks.RED_FREESIA.get(),
                     BlockBehaviour.Properties.copy(Blocks.POTTED_DANDELION).noOcclusion()));
     public static final RegistryObject<Block> POTTED_LANTANA = BLOCKS.register("potted_lantana",
-            () -> new FlowerPotBlock(null, ModBlocks.LANTANA,
+            () -> new FlowerPotBlock(ModBlocks.LANTANA.get(),
                     BlockBehaviour.Properties.copy(Blocks.POTTED_DANDELION).noOcclusion()));
     public static final RegistryObject<Block> POTTED_SUNNY_ZINNIA = BLOCKS.register("potted_sunny_zinnia",
-            () -> new FlowerPotBlock(null, ModBlocks.SUNNY_ZINNIA,
+            () -> new FlowerPotBlock(ModBlocks.SUNNY_ZINNIA.get(),
                     BlockBehaviour.Properties.copy(Blocks.POTTED_DANDELION).noOcclusion()));
     public static final RegistryObject<Block> POTTED_STRIPED_ZINNIA = BLOCKS.register("potted_striped_zinnia",
-            () -> new FlowerPotBlock(null, ModBlocks.STRIPED_ZINNIA,
+            () -> new FlowerPotBlock(ModBlocks.STRIPED_ZINNIA.get(),
                     BlockBehaviour.Properties.copy(Blocks.POTTED_DANDELION).noOcclusion()));
     public static final RegistryObject<Block> POTTED_MIXED_ZINNIA = BLOCKS.register("potted_mixed_zinnia",
-            () -> new FlowerPotBlock(null, ModBlocks.MIXED_ZINNIA,
+            () -> new FlowerPotBlock(ModBlocks.MIXED_ZINNIA.get(),
                     BlockBehaviour.Properties.copy(Blocks.POTTED_DANDELION).noOcclusion()));
     public static final RegistryObject<Block> POTTED_DAHLIA = BLOCKS.register("potted_dahlia",
-            () -> new FlowerPotBlock(null, ModBlocks.DAHLIA,
+            () -> new FlowerPotBlock(ModBlocks.DAHLIA.get(),
                     BlockBehaviour.Properties.copy(Blocks.POTTED_DANDELION).noOcclusion()));
     public static final RegistryObject<Block> POTTED_ORANGE_FREESIA = BLOCKS.register("potted_orange_freesia",
-            () -> new FlowerPotBlock(null, ModBlocks.ORANGE_FREESIA,
+            () -> new FlowerPotBlock(ModBlocks.ORANGE_FREESIA.get(),
                     BlockBehaviour.Properties.copy(Blocks.POTTED_DANDELION).noOcclusion()));
     public static final RegistryObject<Block> POTTED_NASTURTIUM = BLOCKS.register("potted_nasturtium",
-            () -> new FlowerPotBlock(null, ModBlocks.NASTURTIUM,
+            () -> new FlowerPotBlock(ModBlocks.NASTURTIUM.get(),
                     BlockBehaviour.Properties.copy(Blocks.POTTED_DANDELION).noOcclusion()));
     public static final RegistryObject<Block> POTTED_STICKY_MONKEY = BLOCKS.register("potted_sticky_monkey",
-            () -> new FlowerPotBlock(null, ModBlocks.STICKY_MONKEY,
+            () -> new FlowerPotBlock(ModBlocks.STICKY_MONKEY.get(),
                     BlockBehaviour.Properties.copy(Blocks.POTTED_DANDELION).noOcclusion()));
     public static final RegistryObject<Block> POTTED_ORANGE_DAY_LILY = BLOCKS.register("potted_orange_day_lily",
-            () -> new FlowerPotBlock(null, ModBlocks.ORANGE_DAY_LILY,
+            () -> new FlowerPotBlock(ModBlocks.ORANGE_DAY_LILY.get(),
                     BlockBehaviour.Properties.copy(Blocks.POTTED_DANDELION).noOcclusion()));
     public static final RegistryObject<Block> POTTED_DAY_LILY = BLOCKS.register("potted_day_lily",
-            () -> new FlowerPotBlock(null, ModBlocks.DAY_LILY,
+            () -> new FlowerPotBlock(ModBlocks.DAY_LILY.get(),
                     BlockBehaviour.Properties.copy(Blocks.POTTED_DANDELION).noOcclusion()));
     public static final RegistryObject<Block> POTTED_CALIFORNIA_POPPY = BLOCKS.register("potted_california_poppy",
-            () -> new FlowerPotBlock(null, ModBlocks.CALIFORNIA_POPPY,
+            () -> new FlowerPotBlock(ModBlocks.CALIFORNIA_POPPY.get(),
                     BlockBehaviour.Properties.copy(Blocks.POTTED_DANDELION).noOcclusion()));
     public static final RegistryObject<Block> POTTED_ORANGE_COSMOS = BLOCKS.register("potted_orange_cosmos",
-            () -> new FlowerPotBlock(null, ModBlocks.ORANGE_COSMOS,
+            () -> new FlowerPotBlock(ModBlocks.ORANGE_COSMOS.get(),
                     BlockBehaviour.Properties.copy(Blocks.POTTED_DANDELION).noOcclusion()));
     public static final RegistryObject<Block> POTTED_ORANGE_LUPIN = BLOCKS.register("potted_orange_lupin",
-            () -> new FlowerPotBlock(null, ModBlocks.ORANGE_LUPIN,
+            () -> new FlowerPotBlock(ModBlocks.ORANGE_LUPIN.get(),
                     BlockBehaviour.Properties.copy(Blocks.POTTED_DANDELION).noOcclusion()));
     public static final RegistryObject<Block> POTTED_LADY_SLIPPER_ORCHID = BLOCKS.register("potted_lady_slipper_orchid",
-            () -> new FlowerPotBlock(null, ModBlocks.LADY_SLIPPER_ORCHID,
+            () -> new FlowerPotBlock(ModBlocks.LADY_SLIPPER_ORCHID.get(),
                     BlockBehaviour.Properties.copy(Blocks.POTTED_DANDELION).noOcclusion()));
     public static final RegistryObject<Block> POTTED_YELLOW_COSMOS = BLOCKS.register("potted_yellow_cosmos",
-            () -> new FlowerPotBlock(null, ModBlocks.YELLOW_COSMOS,
+            () -> new FlowerPotBlock(ModBlocks.YELLOW_COSMOS.get(),
                     BlockBehaviour.Properties.copy(Blocks.POTTED_DANDELION).noOcclusion()));
     public static final RegistryObject<Block> POTTED_YELLOW_CROCUS = BLOCKS.register("potted_yellow_crocus",
-            () -> new FlowerPotBlock(null, ModBlocks.YELLOW_CROCUS,
+            () -> new FlowerPotBlock(ModBlocks.YELLOW_CROCUS.get(),
                     BlockBehaviour.Properties.copy(Blocks.POTTED_DANDELION).noOcclusion()));
     public static final RegistryObject<Block> POTTED_YELLOW_FREESIA = BLOCKS.register("potted_yellow_freesia",
-            () -> new FlowerPotBlock(null, ModBlocks.YELLOW_FREESIA,
+            () -> new FlowerPotBlock(ModBlocks.YELLOW_FREESIA.get(),
                     BlockBehaviour.Properties.copy(Blocks.POTTED_DANDELION).noOcclusion()));
     public static final RegistryObject<Block> POTTED_CORYDALIS = BLOCKS.register("potted_corydalis",
-            () -> new FlowerPotBlock(null, ModBlocks.CORYDALIS,
+            () -> new FlowerPotBlock(ModBlocks.CORYDALIS.get(),
                     BlockBehaviour.Properties.copy(Blocks.POTTED_DANDELION).noOcclusion()));
     public static final RegistryObject<Block> POTTED_YELLOW_LUPIN = BLOCKS.register("potted_yellow_lupin",
-            () -> new FlowerPotBlock(null, ModBlocks.YELLOW_LUPIN,
+            () -> new FlowerPotBlock(ModBlocks.YELLOW_LUPIN.get(),
                     BlockBehaviour.Properties.copy(Blocks.POTTED_DANDELION).noOcclusion()));
     public static final RegistryObject<Block> POTTED_GOLDEN_BEAN = BLOCKS.register("potted_golden_bean",
-            () -> new FlowerPotBlock(null, ModBlocks.GOLDEN_BEAN,
+            () -> new FlowerPotBlock(ModBlocks.GOLDEN_BEAN.get(),
                     BlockBehaviour.Properties.copy(Blocks.POTTED_DANDELION).noOcclusion()));
     public static final RegistryObject<Block> POTTED_CROCUS_MIX = BLOCKS.register("potted_crocus_mix",
-            () -> new FlowerPotBlock(null, ModBlocks.CROCUS_MIX,
+            () -> new FlowerPotBlock(ModBlocks.CROCUS_MIX.get(),
                     BlockBehaviour.Properties.copy(Blocks.POTTED_DANDELION).noOcclusion()));
     public static final RegistryObject<Block> POTTED_YELLOW_DAFFODIL = BLOCKS.register("potted_yellow_daffodil",
-            () -> new FlowerPotBlock(null, ModBlocks.YELLOW_DAFFODIL,
+            () -> new FlowerPotBlock(ModBlocks.YELLOW_DAFFODIL.get(),
                     BlockBehaviour.Properties.copy(Blocks.POTTED_DANDELION).noOcclusion()));
     public static final RegistryObject<Block> POTTED_WHITE_DAFFODIL = BLOCKS.register("potted_white_daffodil",
-            () -> new FlowerPotBlock(null, ModBlocks.WHITE_DAFFODIL,
+            () -> new FlowerPotBlock(ModBlocks.WHITE_DAFFODIL.get(),
                     BlockBehaviour.Properties.copy(Blocks.POTTED_DANDELION).noOcclusion()));
     public static final RegistryObject<Block> POTTED_NARCISSUS = BLOCKS.register("potted_narcissus",
-            () -> new FlowerPotBlock(null, ModBlocks.NARCISSUS,
+            () -> new FlowerPotBlock(ModBlocks.NARCISSUS.get(),
                     BlockBehaviour.Properties.copy(Blocks.POTTED_DANDELION).noOcclusion()));
     public static final RegistryObject<Block> POTTED_PANSY = BLOCKS.register("potted_pansy",
-            () -> new FlowerPotBlock(null, ModBlocks.PANSY,
+            () -> new FlowerPotBlock(ModBlocks.PANSY.get(),
                     BlockBehaviour.Properties.copy(Blocks.POTTED_DANDELION).noOcclusion()));
     public static final RegistryObject<Block> POTTED_CLOUD_BLUE_CORYDALIS = BLOCKS.register("potted_cloud_blue_corydalis",
-            () -> new FlowerPotBlock(null, ModBlocks.CLOUD_BLUE_CORYDALIS,
+            () -> new FlowerPotBlock(ModBlocks.CLOUD_BLUE_CORYDALIS.get(),
                     BlockBehaviour.Properties.copy(Blocks.POTTED_DANDELION).noOcclusion()));
     public static final RegistryObject<Block> POTTED_CYAN_HYACINTH = BLOCKS.register("potted_cyan_hyacinth",
-            () -> new FlowerPotBlock(null, ModBlocks.CYAN_HYACINTH,
+            () -> new FlowerPotBlock(ModBlocks.CYAN_HYACINTH.get(),
                     BlockBehaviour.Properties.copy(Blocks.POTTED_DANDELION).noOcclusion()));
     public static final RegistryObject<Block> POTTED_LIGHT_BLUE_FORGET_ME_NOT = BLOCKS.register("potted_light_blue_forget_me_not",
-            () -> new FlowerPotBlock(null, ModBlocks.LIGHT_BLUE_FORGET_ME_NOT,
+            () -> new FlowerPotBlock(ModBlocks.LIGHT_BLUE_FORGET_ME_NOT.get(),
                     BlockBehaviour.Properties.copy(Blocks.POTTED_DANDELION).noOcclusion()));
     public static final RegistryObject<Block> POTTED_FORGET_ME_NOT = BLOCKS.register("potted_forget_me_not",
-            () -> new FlowerPotBlock(null, ModBlocks.FORGET_ME_NOT,
+            () -> new FlowerPotBlock(ModBlocks.FORGET_ME_NOT.get(),
                     BlockBehaviour.Properties.copy(Blocks.POTTED_DANDELION).noOcclusion()));
     public static final RegistryObject<Block> POTTED_LIGHT_BLUE_LOBELIA = BLOCKS.register("potted_light_blue_lobelia",
-            () -> new FlowerPotBlock(null, ModBlocks.LIGHT_BLUE_LOBELIA,
+            () -> new FlowerPotBlock(ModBlocks.LIGHT_BLUE_LOBELIA.get(),
                     BlockBehaviour.Properties.copy(Blocks.POTTED_DANDELION).noOcclusion()));
     public static final RegistryObject<Block> POTTED_MEDIUM_BLUE_LOBELIA = BLOCKS.register("potted_medium_blue_lobelia",
-            () -> new FlowerPotBlock(null, ModBlocks.MEDIUM_BLUE_LOBELIA,
+            () -> new FlowerPotBlock(ModBlocks.MEDIUM_BLUE_LOBELIA.get(),
                     BlockBehaviour.Properties.copy(Blocks.POTTED_DANDELION).noOcclusion()));
     public static final RegistryObject<Block> POTTED_ROYAL_BLUE_LOBELIA = BLOCKS.register("potted_royal_blue_lobelia",
-            () -> new FlowerPotBlock(null, ModBlocks.ROYAL_BLUE_LOBELIA,
+            () -> new FlowerPotBlock(ModBlocks.ROYAL_BLUE_LOBELIA.get(),
                     BlockBehaviour.Properties.copy(Blocks.POTTED_DANDELION).noOcclusion()));
     public static final RegistryObject<Block> POTTED_MORNING_GLORY = BLOCKS.register("potted_morning_glory",
-            () -> new FlowerPotBlock(null, ModBlocks.MORNING_GLORY,
+            () -> new FlowerPotBlock(ModBlocks.MORNING_GLORY.get(),
                     BlockBehaviour.Properties.copy(Blocks.POTTED_DANDELION).noOcclusion()));
     public static final RegistryObject<Block> POTTED_BACHELOR_BUTTON = BLOCKS.register("potted_bachelor_button",
-            () -> new FlowerPotBlock(null, ModBlocks.BACHELOR_BUTTON,
+            () -> new FlowerPotBlock(ModBlocks.BACHELOR_BUTTON.get(),
                     BlockBehaviour.Properties.copy(Blocks.POTTED_DANDELION).noOcclusion()));
     public static final RegistryObject<Block> POTTED_BLUE_BACHELOR_BUTTON = BLOCKS.register("potted_blue_bachelor_button",
-            () -> new FlowerPotBlock(null, ModBlocks.BLUE_BACHELOR_BUTTON,
+            () -> new FlowerPotBlock(ModBlocks.BLUE_BACHELOR_BUTTON.get(),
                     BlockBehaviour.Properties.copy(Blocks.POTTED_DANDELION).noOcclusion()));
     public static final RegistryObject<Block> POTTED_BLUE_BELL_BACHELOR_BUTTON = BLOCKS.register("potted_blue_bell_bachelor_button",
-            () -> new FlowerPotBlock(null, ModBlocks.BLUE_BELL_BACHELOR_BUTTON,
+            () -> new FlowerPotBlock(ModBlocks.BLUE_BELL_BACHELOR_BUTTON.get(),
                     BlockBehaviour.Properties.copy(Blocks.POTTED_DANDELION).noOcclusion()));
     public static final RegistryObject<Block> POTTED_BORAGE = BLOCKS.register("potted_borage",
-            () -> new FlowerPotBlock(null, ModBlocks.BORAGE,
+            () -> new FlowerPotBlock(ModBlocks.BORAGE.get(),
                     BlockBehaviour.Properties.copy(Blocks.POTTED_DANDELION).noOcclusion()));
     public static final RegistryObject<Block> POTTED_DARK_BLUE_BORAGE = BLOCKS.register("potted_dark_blue_borage",
-            () -> new FlowerPotBlock(null, ModBlocks.DARK_BLUE_BORAGE,
+            () -> new FlowerPotBlock(ModBlocks.DARK_BLUE_BORAGE.get(),
                     BlockBehaviour.Properties.copy(Blocks.POTTED_DANDELION).noOcclusion()));
     public static final RegistryObject<Block> POTTED_COMMELINA = BLOCKS.register("potted_commelina",
-            () -> new FlowerPotBlock(null, ModBlocks.COMMELINA,
+            () -> new FlowerPotBlock(ModBlocks.COMMELINA.get(),
                     BlockBehaviour.Properties.copy(Blocks.POTTED_DANDELION).noOcclusion()));
     public static final RegistryObject<Block> POTTED_GRAPE_HYACINTH = BLOCKS.register("potted_grape_hyacinth",
-            () -> new FlowerPotBlock(null, ModBlocks.GRAPE_HYACINTH,
+            () -> new FlowerPotBlock(ModBlocks.GRAPE_HYACINTH.get(),
                     BlockBehaviour.Properties.copy(Blocks.POTTED_DANDELION).noOcclusion()));
     public static final RegistryObject<Block> POTTED_VIRGINIA_COWSLIP = BLOCKS.register("potted_virginia_cowslip",
-            () -> new FlowerPotBlock(null, ModBlocks.VIRGINIA_COWSLIP,
+            () -> new FlowerPotBlock(ModBlocks.VIRGINIA_COWSLIP.get(),
                     BlockBehaviour.Properties.copy(Blocks.POTTED_DANDELION).noOcclusion()));
     public static final RegistryObject<Block> POTTED_PERIWINKLE = BLOCKS.register("potted_periwinkle",
-            () -> new FlowerPotBlock(null, ModBlocks.PERIWINKLE,
+            () -> new FlowerPotBlock(ModBlocks.PERIWINKLE.get(),
                     BlockBehaviour.Properties.copy(Blocks.POTTED_DANDELION).noOcclusion()));
     public static final RegistryObject<Block> POTTED_COMMON_PERIWINKLE = BLOCKS.register("potted_common_periwinkle",
-            () -> new FlowerPotBlock(null, ModBlocks.COMMON_PERIWINKLE,
+            () -> new FlowerPotBlock(ModBlocks.COMMON_PERIWINKLE.get(),
                     BlockBehaviour.Properties.copy(Blocks.POTTED_DANDELION).noOcclusion()));
     public static final RegistryObject<Block> POTTED_CLOUD_SAGE = BLOCKS.register("potted_cloud_sage",
-            () -> new FlowerPotBlock(null, ModBlocks.CLOUD_SAGE,
+            () -> new FlowerPotBlock(ModBlocks.CLOUD_SAGE.get(),
                     BlockBehaviour.Properties.copy(Blocks.POTTED_DANDELION).noOcclusion()));
     public static final RegistryObject<Block> POTTED_PURPLE_CROCUS = BLOCKS.register("potted_purple_crocus",
-            () -> new FlowerPotBlock(null, ModBlocks.PURPLE_CROCUS,
+            () -> new FlowerPotBlock(ModBlocks.PURPLE_CROCUS.get(),
                     BlockBehaviour.Properties.copy(Blocks.POTTED_DANDELION).noOcclusion()));
     public static final RegistryObject<Block> POTTED_PEPPERMINT = BLOCKS.register("potted_peppermint",
-            () -> new FlowerPotBlock(null, ModBlocks.PEPPERMINT,
+            () -> new FlowerPotBlock(ModBlocks.PEPPERMINT.get(),
                     BlockBehaviour.Properties.copy(Blocks.POTTED_DANDELION).noOcclusion()));
     public static final RegistryObject<Block> POTTED_PARROT_FLOWER = BLOCKS.register("potted_parrot_flower",
-            () -> new FlowerPotBlock(null, ModBlocks.PARROT_FLOWER,
+            () -> new FlowerPotBlock(ModBlocks.PARROT_FLOWER.get(),
                     BlockBehaviour.Properties.copy(Blocks.POTTED_DANDELION).noOcclusion()));
     public static final RegistryObject<Block> POTTED_BIRDS_EYE_GILIA = BLOCKS.register("potted_birds_eye_gilia",
-            () -> new FlowerPotBlock(null, ModBlocks.BIRDS_EYE_GILIA,
+            () -> new FlowerPotBlock(ModBlocks.BIRDS_EYE_GILIA.get(),
                     BlockBehaviour.Properties.copy(Blocks.POTTED_DANDELION).noOcclusion()));
     public static final RegistryObject<Block> POTTED_AFRICAN_DAISY = BLOCKS.register("potted_african_daisy",
-            () -> new FlowerPotBlock(null, ModBlocks.AFRICAN_DAISY,
+            () -> new FlowerPotBlock(ModBlocks.AFRICAN_DAISY.get(),
                     BlockBehaviour.Properties.copy(Blocks.POTTED_DANDELION).noOcclusion()));
     public static final RegistryObject<Block> POTTED_WOLFS_BANE = BLOCKS.register("potted_wolfs_bane",
-            () -> new FlowerPotBlock(null, ModBlocks.WOLFS_BANE,
+            () -> new FlowerPotBlock(ModBlocks.WOLFS_BANE.get(),
                     BlockBehaviour.Properties.copy(Blocks.POTTED_DANDELION).noOcclusion()));
     public static final RegistryObject<Block> POTTED_PURPLE_LUPIN = BLOCKS.register("potted_purple_lupin",
-            () -> new FlowerPotBlock(null, ModBlocks.PURPLE_LUPIN,
+            () -> new FlowerPotBlock(ModBlocks.PURPLE_LUPIN.get(),
                     BlockBehaviour.Properties.copy(Blocks.POTTED_DANDELION).noOcclusion()));
     public static final RegistryObject<Block> POTTED_PANSY_PURPLE = BLOCKS.register("potted_pansy_purple",
-            () -> new FlowerPotBlock(null, ModBlocks.PANSY_PURPLE,
+            () -> new FlowerPotBlock(ModBlocks.PANSY_PURPLE.get(),
                     BlockBehaviour.Properties.copy(Blocks.POTTED_DANDELION).noOcclusion()));
     public static final RegistryObject<Block> POTTED_VIOLET = BLOCKS.register("potted_violet",
-            () -> new FlowerPotBlock(null, ModBlocks.VIOLET,
+            () -> new FlowerPotBlock(ModBlocks.VIOLET.get(),
                     BlockBehaviour.Properties.copy(Blocks.POTTED_DANDELION).noOcclusion()));
     public static final RegistryObject<Block> POTTED_SALVIA = BLOCKS.register("potted_salvia",
-            () -> new FlowerPotBlock(null, ModBlocks.SALVIA,
+            () -> new FlowerPotBlock(ModBlocks.SALVIA.get(),
                     BlockBehaviour.Properties.copy(Blocks.POTTED_DANDELION).noOcclusion()));
     public static final RegistryObject<Block> POTTED_PURPLE_MAGENTA_SALVIA = BLOCKS.register("potted_purple_magenta_salvia",
-            () -> new FlowerPotBlock(null, ModBlocks.PURPLE_MAGENTA_SALVIA,
+            () -> new FlowerPotBlock(ModBlocks.PURPLE_MAGENTA_SALVIA.get(),
                     BlockBehaviour.Properties.copy(Blocks.POTTED_DANDELION).noOcclusion()));
     public static final RegistryObject<Block> POTTED_MEXICAN_SAGE = BLOCKS.register("potted_mexican_sage",
-            () -> new FlowerPotBlock(null, ModBlocks.MEXICAN_SAGE,
+            () -> new FlowerPotBlock(ModBlocks.MEXICAN_SAGE.get(),
                     BlockBehaviour.Properties.copy(Blocks.POTTED_DANDELION).noOcclusion()));
     public static final RegistryObject<Block> POTTED_PURPLE_CALLA_LILY = BLOCKS.register("potted_purple_calla_lily",
-            () -> new FlowerPotBlock(null, ModBlocks.PURPLE_CALLA_LILY,
+            () -> new FlowerPotBlock(ModBlocks.PURPLE_CALLA_LILY.get(),
                     BlockBehaviour.Properties.copy(Blocks.POTTED_DANDELION).noOcclusion()));
     public static final RegistryObject<Block> POTTED_PURPLE_AFRICAN_DAISY = BLOCKS.register("potted_purple_african_daisy",
-            () -> new FlowerPotBlock(null, ModBlocks.PURPLE_AFRICAN_DAISY,
+            () -> new FlowerPotBlock(ModBlocks.PURPLE_AFRICAN_DAISY.get(),
                     BlockBehaviour.Properties.copy(Blocks.POTTED_DANDELION).noOcclusion()));
     public static final RegistryObject<Block> POTTED_MAROON_MALLOW = BLOCKS.register("potted_maroon_mallow",
-            () -> new FlowerPotBlock(null, ModBlocks.MAROON_MALLOW,
+            () -> new FlowerPotBlock(ModBlocks.MAROON_MALLOW.get(),
                     BlockBehaviour.Properties.copy(Blocks.POTTED_DANDELION).noOcclusion()));
     public static final RegistryObject<Block> POTTED_PINK_PETTICOAT = BLOCKS.register("potted_pink_petticoat",
-            () -> new FlowerPotBlock(null, ModBlocks.PINK_PETTICOAT,
+            () -> new FlowerPotBlock(ModBlocks.PINK_PETTICOAT.get(),
                     BlockBehaviour.Properties.copy(Blocks.POTTED_DANDELION).noOcclusion()));
     public static final RegistryObject<Block> POTTED_PITCHER_PLANT = BLOCKS.register("potted_pitcher_plant",
-            () -> new FlowerPotBlock(null, ModBlocks.PITCHER_PLANT,
+            () -> new FlowerPotBlock(ModBlocks.PITCHER_PLANT.get(),
                     BlockBehaviour.Properties.copy(Blocks.POTTED_DANDELION).noOcclusion()));
     public static final RegistryObject<Block> POTTED_VENUS_FLY_TRAP = BLOCKS.register("potted_venus_fly_trap",
-            () -> new FlowerPotBlock(null, ModBlocks.VENUS_FLY_TRAP,
+            () -> new FlowerPotBlock(ModBlocks.VENUS_FLY_TRAP.get(),
                     BlockBehaviour.Properties.copy(Blocks.POTTED_DANDELION).noOcclusion()));
     public static final RegistryObject<Block> POTTED_MAGENTA_ZINNIA = BLOCKS.register("potted_magenta_zinnia",
-            () -> new FlowerPotBlock(null, ModBlocks.MAGENTA_ZINNIA,
+            () -> new FlowerPotBlock(ModBlocks.MAGENTA_ZINNIA.get(),
                     BlockBehaviour.Properties.copy(Blocks.POTTED_DANDELION).noOcclusion()));
     public static final RegistryObject<Block> POTTED_FUCHSIA = BLOCKS.register("potted_fuchsia",
-            () -> new FlowerPotBlock(null, ModBlocks.FUCHSIA,
+            () -> new FlowerPotBlock(ModBlocks.FUCHSIA.get(),
                     BlockBehaviour.Properties.copy(Blocks.POTTED_DANDELION).noOcclusion()));
     public static final RegistryObject<Block> POTTED_FUCHSIA_SMALL = BLOCKS.register("potted_fuchsia_small",
-            () -> new FlowerPotBlock(null, ModBlocks.FUCHSIA_SMALL,
+            () -> new FlowerPotBlock(ModBlocks.FUCHSIA_SMALL.get(),
                     BlockBehaviour.Properties.copy(Blocks.POTTED_DANDELION).noOcclusion()));
     public static final RegistryObject<Block> POTTED_MAGENTA_CLOVER = BLOCKS.register("potted_magenta_clover",
-            () -> new FlowerPotBlock(null, ModBlocks.MAGENTA_CLOVER,
+            () -> new FlowerPotBlock(ModBlocks.MAGENTA_CLOVER.get(),
                     BlockBehaviour.Properties.copy(Blocks.POTTED_DANDELION).noOcclusion()));
     public static final RegistryObject<Block> POTTED_PINK_CLOVER = BLOCKS.register("potted_pink_clover",
-            () -> new FlowerPotBlock(null, ModBlocks.PINK_CLOVER,
+            () -> new FlowerPotBlock(ModBlocks.PINK_CLOVER.get(),
                     BlockBehaviour.Properties.copy(Blocks.POTTED_DANDELION).noOcclusion()));
     public static final RegistryObject<Block> POTTED_PINK_GERANIUM = BLOCKS.register("potted_pink_geranium",
-            () -> new FlowerPotBlock(null, ModBlocks.PINK_GERANIUM,
+            () -> new FlowerPotBlock(ModBlocks.PINK_GERANIUM.get(),
                     BlockBehaviour.Properties.copy(Blocks.POTTED_DANDELION).noOcclusion()));
     public static final RegistryObject<Block> POTTED_ECHINACEA = BLOCKS.register("potted_echinacea",
-            () -> new FlowerPotBlock(null, ModBlocks.ECHINACEA,
+            () -> new FlowerPotBlock(ModBlocks.ECHINACEA.get(),
                     BlockBehaviour.Properties.copy(Blocks.POTTED_DANDELION).noOcclusion()));
     public static final RegistryObject<Block> POTTED_LIGHT_PINK_GERANIUM = BLOCKS.register("potted_light_pink_geranium",
-            () -> new FlowerPotBlock(null, ModBlocks.LIGHT_PINK_GERANIUM,
+            () -> new FlowerPotBlock(ModBlocks.LIGHT_PINK_GERANIUM.get(),
                     BlockBehaviour.Properties.copy(Blocks.POTTED_DANDELION).noOcclusion()));
     public static final RegistryObject<Block> POTTED_BLEEDING_HEART = BLOCKS.register("potted_bleeding_heart",
-            () -> new FlowerPotBlock(null, ModBlocks.BLEEDING_HEART,
+            () -> new FlowerPotBlock(ModBlocks.BLEEDING_HEART.get(),
                     BlockBehaviour.Properties.copy(Blocks.POTTED_DANDELION).noOcclusion()));
     public static final RegistryObject<Block> POTTED_NASTURTIUM_PINK = BLOCKS.register("potted_nasturtium_pink",
-            () -> new FlowerPotBlock(null, ModBlocks.NASTURTIUM_PINK,
+            () -> new FlowerPotBlock(ModBlocks.NASTURTIUM_PINK.get(),
                     BlockBehaviour.Properties.copy(Blocks.POTTED_DANDELION).noOcclusion()));
     public static final RegistryObject<Block> POTTED_CLOVER_FLOWERS = BLOCKS.register("potted_clover_flowers",
-            () -> new FlowerPotBlock(null, ModBlocks.CLOVER_FLOWERS,
+            () -> new FlowerPotBlock(ModBlocks.CLOVER_FLOWERS.get(),
                     BlockBehaviour.Properties.copy(Blocks.POTTED_DANDELION).noOcclusion()));
     public static final RegistryObject<Block> POTTED_SNAPDRAGON_PINK = BLOCKS.register("potted_snapdragon_pink",
-            () -> new FlowerPotBlock(null, ModBlocks.SNAPDRAGON_PINK,
+            () -> new FlowerPotBlock(ModBlocks.SNAPDRAGON_PINK.get(),
                     BlockBehaviour.Properties.copy(Blocks.POTTED_DANDELION).noOcclusion()));
     public static final RegistryObject<Block> POTTED_BANEBERRY = BLOCKS.register("potted_baneberry",
-            () -> new FlowerPotBlock(null, ModBlocks.BANEBERRY,
+            () -> new FlowerPotBlock(ModBlocks.BANEBERRY.get(),
                     BlockBehaviour.Properties.copy(Blocks.POTTED_DANDELION).noOcclusion()));
     public static final RegistryObject<Block> POTTED_COSMOS_MIX = BLOCKS.register("potted_cosmos_mix",
-            () -> new FlowerPotBlock(null, ModBlocks.COSMOS_MIX,
+            () -> new FlowerPotBlock(ModBlocks.COSMOS_MIX.get(),
                     BlockBehaviour.Properties.copy(Blocks.POTTED_DANDELION).noOcclusion()));
     public static final RegistryObject<Block> POTTED_COSMOS = BLOCKS.register("potted_cosmos",
-            () -> new FlowerPotBlock(null, ModBlocks.COSMOS,
+            () -> new FlowerPotBlock(ModBlocks.COSMOS.get(),
                     BlockBehaviour.Properties.copy(Blocks.POTTED_DANDELION).noOcclusion()));
     public static final RegistryObject<Block> POTTED_MAGENTA_ORCHID = BLOCKS.register("potted_magenta_orchid",
-            () -> new FlowerPotBlock(null, ModBlocks.MAGENTA_ORCHID,
+            () -> new FlowerPotBlock(ModBlocks.MAGENTA_ORCHID.get(),
                     BlockBehaviour.Properties.copy(Blocks.POTTED_DANDELION).noOcclusion()));
     public static final RegistryObject<Block> POTTED_CLOVER_LEAVES = BLOCKS.register("potted_clover_leaves",
-            () -> new FlowerPotBlock(null, ModBlocks.CLOVER_LEAVES,
+            () -> new FlowerPotBlock(ModBlocks.CLOVER_LEAVES.get(),
                     BlockBehaviour.Properties.copy(Blocks.POTTED_DANDELION).noOcclusion()));
     public static final RegistryObject<Block> POTTED_SNAPDRAGON_WHITE = BLOCKS.register("potted_snapdragon_white",
-            () -> new FlowerPotBlock(null, ModBlocks.SNAPDRAGON_WHITE,
+            () -> new FlowerPotBlock(ModBlocks.SNAPDRAGON_WHITE.get(),
                     BlockBehaviour.Properties.copy(Blocks.POTTED_DANDELION).noOcclusion()));
     public static final RegistryObject<Block> POTTED_LILY_OF_THE_VALLEY = BLOCKS.register("potted_lily_of_the_valley",
-            () -> new FlowerPotBlock(null, ModBlocks.LILY_OF_THE_VALLEY,
+            () -> new FlowerPotBlock(ModBlocks.LILY_OF_THE_VALLEY.get(),
                     BlockBehaviour.Properties.copy(Blocks.POTTED_DANDELION).noOcclusion()));
     public static final RegistryObject<Block> POTTED_CALLA_LILY = BLOCKS.register("potted_calla_lily",
-            () -> new FlowerPotBlock(null, ModBlocks.CALLA_LILY,
+            () -> new FlowerPotBlock(ModBlocks.CALLA_LILY.get(),
                     BlockBehaviour.Properties.copy(Blocks.POTTED_DANDELION).noOcclusion()));
     public static final RegistryObject<Block> POTTED_CHRYSANTHENUM = BLOCKS.register("potted_chrysanthenum",
-            () -> new FlowerPotBlock(null, ModBlocks.CHRYSANTHENUM,
+            () -> new FlowerPotBlock(ModBlocks.CHRYSANTHENUM.get(),
                     BlockBehaviour.Properties.copy(Blocks.POTTED_DANDELION).noOcclusion()));
     public static final RegistryObject<Block> POTTED_LEWISIA = BLOCKS.register("potted_lewisia",
-            () -> new FlowerPotBlock(null, ModBlocks.LEWISIA,
+            () -> new FlowerPotBlock(ModBlocks.LEWISIA.get(),
                     BlockBehaviour.Properties.copy(Blocks.POTTED_DANDELION).noOcclusion()));
     public static final RegistryObject<Block> POTTED_AUSTRALIAN_CORNFLOWER = BLOCKS.register("potted_australian_cornflower",
-            () -> new FlowerPotBlock(null, ModBlocks.AUSTRALIAN_CORNFLOWER,
+            () -> new FlowerPotBlock(ModBlocks.AUSTRALIAN_CORNFLOWER.get(),
                     BlockBehaviour.Properties.copy(Blocks.POTTED_DANDELION).noOcclusion()));
     public static final RegistryObject<Block> POTTED_ALBUCA_NAMAQUENSIS = BLOCKS.register("potted_albuca_namaquensis",
-            () -> new FlowerPotBlock(null, ModBlocks.ALBUCA_NAMAQUENSIS,
+            () -> new FlowerPotBlock(ModBlocks.ALBUCA_NAMAQUENSIS.get(),
                     BlockBehaviour.Properties.copy(Blocks.POTTED_DANDELION).noOcclusion()));
     public static final RegistryObject<Block> POTTED_CACTUS = BLOCKS.register("potted_cactus",
-            () -> new FlowerPotBlock(null, ModBlocks.CACTUS,
+            () -> new FlowerPotBlock(ModBlocks.CACTUS.get(),
                     BlockBehaviour.Properties.copy(Blocks.POTTED_DANDELION).noOcclusion()));
     public static final RegistryObject<Block> POTTED_PARODIA_MURICATA = BLOCKS.register("potted_parodia_muricata",
-            () -> new FlowerPotBlock(null, ModBlocks.PARODIA_MURICATA,
+            () -> new FlowerPotBlock(ModBlocks.PARODIA_MURICATA.get(),
                     BlockBehaviour.Properties.copy(Blocks.POTTED_DANDELION).noOcclusion()));
     public static final RegistryObject<Block> POTTED_YELLOW_STARTHISTLE = BLOCKS.register("potted_yellow_starthistle",
-            () -> new FlowerPotBlock(null, ModBlocks.YELLOW_STARTHISTLE,
+            () -> new FlowerPotBlock(ModBlocks.YELLOW_STARTHISTLE.get(),
                     BlockBehaviour.Properties.copy(Blocks.POTTED_DANDELION).noOcclusion()));
     public static final RegistryObject<Block> POTTED_AUSTRALIAN_FLAME_PEA = BLOCKS.register("potted_australian_flame_pea",
-            () -> new FlowerPotBlock(null, ModBlocks.AUSTRALIAN_FLAME_PEA,
+            () -> new FlowerPotBlock(ModBlocks.AUSTRALIAN_FLAME_PEA.get(),
                     BlockBehaviour.Properties.copy(Blocks.POTTED_DANDELION).noOcclusion()));
     public static final RegistryObject<Block> POTTED_ORANGE_AUSTRALIAN_FLAME_PEA = BLOCKS.register("potted_orange_australian_flame_pea",
-            () -> new FlowerPotBlock(null, ModBlocks.ORANGE_AUSTRALIAN_FLAME_PEA,
+            () -> new FlowerPotBlock(ModBlocks.ORANGE_AUSTRALIAN_FLAME_PEA.get(),
                     BlockBehaviour.Properties.copy(Blocks.POTTED_DANDELION).noOcclusion()));
     public static final RegistryObject<Block> POTTED_DESERT_PAINTBRUSH = BLOCKS.register("potted_desert_paintbrush",
-            () -> new FlowerPotBlock(null, ModBlocks.DESERT_PAINTBRUSH,
+            () -> new FlowerPotBlock(ModBlocks.DESERT_PAINTBRUSH.get(),
                     BlockBehaviour.Properties.copy(Blocks.POTTED_DANDELION).noOcclusion()));
     public static final RegistryObject<Block> POTTED_DESERT_STURT_PEA = BLOCKS.register("potted_desert_sturt_pea",
-            () -> new FlowerPotBlock(null, ModBlocks.DESERT_STURT_PEA,
+            () -> new FlowerPotBlock(ModBlocks.DESERT_STURT_PEA.get(),
                     BlockBehaviour.Properties.copy(Blocks.POTTED_DANDELION).noOcclusion()));
     public static final RegistryObject<Block> POTTED_BLUE_TINSEL_LILY = BLOCKS.register("potted_blue_tinsel_lily",
-            () -> new FlowerPotBlock(null, ModBlocks.BLUE_TINSEL_LILY,
+            () -> new FlowerPotBlock(ModBlocks.BLUE_TINSEL_LILY.get(),
                     BlockBehaviour.Properties.copy(Blocks.POTTED_DANDELION).noOcclusion()));
     public static final RegistryObject<Block> POTTED_NOTCH_LEAF_SCORPION_WEED = BLOCKS.register("potted_notch_leaf_scorpion_weed",
-            () -> new FlowerPotBlock(null, ModBlocks.NOTCH_LEAF_SCORPION_WEED,
+            () -> new FlowerPotBlock(ModBlocks.NOTCH_LEAF_SCORPION_WEED.get(),
                     BlockBehaviour.Properties.copy(Blocks.POTTED_DANDELION).noOcclusion()));
     public static final RegistryObject<Block> POTTED_PURPLE_FLAG = BLOCKS.register("potted_purple_flag",
-            () -> new FlowerPotBlock(null, ModBlocks.PURPLE_FLAG,
+            () -> new FlowerPotBlock(ModBlocks.PURPLE_FLAG.get(),
                     BlockBehaviour.Properties.copy(Blocks.POTTED_DANDELION).noOcclusion()));
     public static final RegistryObject<Block> POTTED_OWLS_CLOVER = BLOCKS.register("potted_owls_clover",
-            () -> new FlowerPotBlock(null, ModBlocks.OWLS_CLOVER,
+            () -> new FlowerPotBlock(ModBlocks.OWLS_CLOVER.get(),
                     BlockBehaviour.Properties.copy(Blocks.POTTED_DANDELION).noOcclusion()));
     public static final RegistryObject<Block> POTTED_DESERT_SAND_VERBENA = BLOCKS.register("potted_desert_sand_verbena",
-            () -> new FlowerPotBlock(null, ModBlocks.DESERT_SAND_VERBENA,
+            () -> new FlowerPotBlock(ModBlocks.DESERT_SAND_VERBENA.get(),
                     BlockBehaviour.Properties.copy(Blocks.POTTED_DANDELION).noOcclusion()));
     public static final RegistryObject<Block> POTTED_PINK_DESERT_SAND_VERBENA = BLOCKS.register("potted_pink_desert_sand_verbena",
-            () -> new FlowerPotBlock(null, ModBlocks.PINK_DESERT_SAND_VERBENA,
+            () -> new FlowerPotBlock(ModBlocks.PINK_DESERT_SAND_VERBENA.get(),
                     BlockBehaviour.Properties.copy(Blocks.POTTED_DANDELION).noOcclusion()));
     public static final RegistryObject<Block> POTTED_ENGELMANNS_HEDGEHOG_CACTUS = BLOCKS.register("potted_engelmanns_hedgehog_cactus",
-            () -> new FlowerPotBlock(null, ModBlocks.ENGELMANNS_HEDGEHOG_CACTUS,
+            () -> new FlowerPotBlock(ModBlocks.ENGELMANNS_HEDGEHOG_CACTUS.get(),
                     BlockBehaviour.Properties.copy(Blocks.POTTED_DANDELION).noOcclusion()));
     public static final RegistryObject<Block> POTTED_DEVILS_CLAW = BLOCKS.register("potted_devils_claw",
-            () -> new FlowerPotBlock(null, ModBlocks.DEVILS_CLAW,
+            () -> new FlowerPotBlock(ModBlocks.DEVILS_CLAW.get(),
                     BlockBehaviour.Properties.copy(Blocks.POTTED_DANDELION).noOcclusion()));
     public static final RegistryObject<Block> POTTED_TUMBLE_WEED = BLOCKS.register("potted_tumble_weed",
-            () -> new FlowerPotBlock(null, ModBlocks.TUMBLE_WEED,
+            () -> new FlowerPotBlock(ModBlocks.TUMBLE_WEED.get(),
                     BlockBehaviour.Properties.copy(Blocks.POTTED_DANDELION).noOcclusion()));
     public static final RegistryObject<Block> POTTED_WHITE_TINSEL_FLOWER = BLOCKS.register("potted_white_tinsel_flower",
-            () -> new FlowerPotBlock(null, ModBlocks.WHITE_TINSEL_FLOWER,
+            () -> new FlowerPotBlock(ModBlocks.WHITE_TINSEL_FLOWER.get(),
                     BlockBehaviour.Properties.copy(Blocks.POTTED_DANDELION).noOcclusion()));
     public static final RegistryObject<Block> POTTED_YUCCA = BLOCKS.register("potted_yucca",
-            () -> new FlowerPotBlock(null, ModBlocks.YUCCA,
+            () -> new FlowerPotBlock(ModBlocks.YUCCA.get(),
                     BlockBehaviour.Properties.copy(Blocks.POTTED_DANDELION).noOcclusion()));
     public static final RegistryObject<Block> POTTED_BABY_BLUE_EYES = BLOCKS.register("potted_baby_blue_eyes",
-            () -> new FlowerPotBlock(null, ModBlocks.BABY_BLUE_EYES,
+            () -> new FlowerPotBlock(ModBlocks.BABY_BLUE_EYES.get(),
                     BlockBehaviour.Properties.copy(Blocks.POTTED_DANDELION).noOcclusion()));
     public static final RegistryObject<Block> POTTED_BABY_BLUE_EYES_SMALL = BLOCKS.register("potted_baby_blue_eyes_small",
-            () -> new FlowerPotBlock(null, ModBlocks.BABY_BLUE_EYES_SMALL,
+            () -> new FlowerPotBlock(ModBlocks.BABY_BLUE_EYES_SMALL.get(),
                     BlockBehaviour.Properties.copy(Blocks.POTTED_DANDELION).noOcclusion()));
     public static final RegistryObject<Block> POTTED_BEACH_GRASS = BLOCKS.register("potted_beach_grass",
-            () -> new FlowerPotBlock(null, ModBlocks.BEACH_GRASS,
+            () -> new FlowerPotBlock(ModBlocks.BEACH_GRASS.get(),
                     BlockBehaviour.Properties.copy(Blocks.POTTED_DANDELION).noOcclusion()));
     public static final RegistryObject<Block> POTTED_LIVE_FOREVER_LEAVES = BLOCKS.register("potted_live_forever_leaves",
-            () -> new FlowerPotBlock(null, ModBlocks.LIVE_FOREVER_LEAVES,
+            () -> new FlowerPotBlock(ModBlocks.LIVE_FOREVER_LEAVES.get(),
                     BlockBehaviour.Properties.copy(Blocks.POTTED_DANDELION).noOcclusion()));
     public static final RegistryObject<Block> POTTED_LIVE_FOREVER = BLOCKS.register("potted_live_forever",
-            () -> new FlowerPotBlock(null, ModBlocks.LIVE_FOREVER,
+            () -> new FlowerPotBlock(ModBlocks.LIVE_FOREVER.get(),
                     BlockBehaviour.Properties.copy(Blocks.POTTED_DANDELION).noOcclusion()));
     public static final RegistryObject<Block> POTTED_COASTAL_LOTUS = BLOCKS.register("potted_coastal_lotus",
-            () -> new FlowerPotBlock(null, ModBlocks.COASTAL_LOTUS,
+            () -> new FlowerPotBlock(ModBlocks.COASTAL_LOTUS.get(),
                     BlockBehaviour.Properties.copy(Blocks.POTTED_DANDELION).noOcclusion()));
     public static final RegistryObject<Block> POTTED_SILVER_CARPET = BLOCKS.register("potted_silver_carpet",
-            () -> new FlowerPotBlock(null, ModBlocks.SILVER_CARPET,
+            () -> new FlowerPotBlock(ModBlocks.SILVER_CARPET.get(),
                     BlockBehaviour.Properties.copy(Blocks.POTTED_DANDELION).noOcclusion()));
     public static final RegistryObject<Block> POTTED_BEACH_STRAWBERRY = BLOCKS.register("potted_beach_strawberry",
-            () -> new FlowerPotBlock(null, ModBlocks.BEACH_STRAWBERRY,
+            () -> new FlowerPotBlock(ModBlocks.BEACH_STRAWBERRY.get(),
                     BlockBehaviour.Properties.copy(Blocks.POTTED_DANDELION).noOcclusion()));
     public static final RegistryObject<Block> POTTED_CINQUEFOIL = BLOCKS.register("potted_cinquefoil",
-            () -> new FlowerPotBlock(null, ModBlocks.CINQUEFOIL,
+            () -> new FlowerPotBlock(ModBlocks.CINQUEFOIL.get(),
                     BlockBehaviour.Properties.copy(Blocks.POTTED_DANDELION).noOcclusion()));
     public static final RegistryObject<Block> POTTED_CALIFORNIA_SEA_THRIFT = BLOCKS.register("potted_california_sea_thrift",
-            () -> new FlowerPotBlock(null, ModBlocks.CALIFORNIA_SEA_THRIFT,
+            () -> new FlowerPotBlock(ModBlocks.CALIFORNIA_SEA_THRIFT.get(),
                     BlockBehaviour.Properties.copy(Blocks.POTTED_DANDELION).noOcclusion()));
     public static final RegistryObject<Block> POTTED_BLUE_EYED_GRASS = BLOCKS.register("potted_blue_eyed_grass",
-            () -> new FlowerPotBlock(null, ModBlocks.BLUE_EYED_GRASS,
+            () -> new FlowerPotBlock(ModBlocks.BLUE_EYED_GRASS.get(),
                     BlockBehaviour.Properties.copy(Blocks.POTTED_DANDELION).noOcclusion()));
     public static final RegistryObject<Block> POTTED_CREEPING_THYME = BLOCKS.register("potted_creeping_thyme",
-            () -> new FlowerPotBlock(null, ModBlocks.CREEPING_THYME,
+            () -> new FlowerPotBlock(ModBlocks.CREEPING_THYME.get(),
                     BlockBehaviour.Properties.copy(Blocks.POTTED_DANDELION).noOcclusion()));
     public static final RegistryObject<Block> POTTED_WOOLY_THYME = BLOCKS.register("potted_wooly_thyme",
-            () -> new FlowerPotBlock(null, ModBlocks.WOOLY_THYME,
+            () -> new FlowerPotBlock(ModBlocks.WOOLY_THYME.get(),
                     BlockBehaviour.Properties.copy(Blocks.POTTED_DANDELION).noOcclusion()));
     public static final RegistryObject<Block> POTTED_BUCKWHEAT = BLOCKS.register("potted_buckwheat",
-            () -> new FlowerPotBlock(null, ModBlocks.BUCKWHEAT,
+            () -> new FlowerPotBlock(ModBlocks.BUCKWHEAT.get(),
                     BlockBehaviour.Properties.copy(Blocks.POTTED_DANDELION).noOcclusion()));
     public static final RegistryObject<Block> POTTED_ROCK_ROSE = BLOCKS.register("potted_rock_rose",
-            () -> new FlowerPotBlock(null, ModBlocks.ROCK_ROSE,
+            () -> new FlowerPotBlock(ModBlocks.ROCK_ROSE.get(),
                     BlockBehaviour.Properties.copy(Blocks.POTTED_DANDELION).noOcclusion()));
     public static final RegistryObject<Block> POTTED_ROCK_ROSE_ORCHID = BLOCKS.register("potted_rock_rose_orchid",
-            () -> new FlowerPotBlock(null, ModBlocks.ROCK_ROSE_ORCHID,
+            () -> new FlowerPotBlock(ModBlocks.ROCK_ROSE_ORCHID.get(),
                     BlockBehaviour.Properties.copy(Blocks.POTTED_DANDELION).noOcclusion()));
     public static final RegistryObject<Block> POTTED_BUCKWHEAT_RED = BLOCKS.register("potted_buckwheat_red",
-            () -> new FlowerPotBlock(null, ModBlocks.BUCKWHEAT_RED,
+            () -> new FlowerPotBlock(ModBlocks.BUCKWHEAT_RED.get(),
                     BlockBehaviour.Properties.copy(Blocks.POTTED_DANDELION).noOcclusion()));
     public static final RegistryObject<Block> POTTED_JEWEL_OF_THE_DESERT = BLOCKS.register("potted_jewel_of_the_desert",
-            () -> new FlowerPotBlock(null, ModBlocks.JEWEL_OF_THE_DESERT,
+            () -> new FlowerPotBlock(ModBlocks.JEWEL_OF_THE_DESERT.get(),
                     BlockBehaviour.Properties.copy(Blocks.POTTED_DANDELION).noOcclusion()));
     public static final RegistryObject<Block> POTTED_BASKET_STINKHORN = BLOCKS.register("potted_basket_stinkhorn",
-            () -> new FlowerPotBlock(null, ModBlocks.BASKET_STINKHORN,
+            () -> new FlowerPotBlock(ModBlocks.BASKET_STINKHORN.get(),
                     BlockBehaviour.Properties.copy(Blocks.POTTED_DANDELION).noOcclusion()));
-
     public static final RegistryObject<Block> POTTED_IRIS_FANCY_DRESS = BLOCKS.register("potted_iris_fancy_dress",
-            () -> new FlowerPotBlock(null, ModBlocks.IRIS_FANCY_DRESS,
+            () -> new FlowerPotBlock(ModBlocks.IRIS_FANCY_DRESS.get(),
                     BlockBehaviour.Properties.copy(Blocks.POTTED_DANDELION).noOcclusion()));
     public static final RegistryObject<Block> POTTED_FLOWERING_CURRENT = BLOCKS.register("potted_flowering_current",
-            () -> new FlowerPotBlock(null, ModBlocks.FLOWERING_CURRENT,
+            () -> new FlowerPotBlock(ModBlocks.FLOWERING_CURRENT.get(),
                     BlockBehaviour.Properties.copy(Blocks.POTTED_DANDELION).noOcclusion()));
     public static final RegistryObject<Block> POTTED_GLORIOSA_LILY = BLOCKS.register("potted_gloriosa_lily",
-            () -> new FlowerPotBlock(null, ModBlocks.GLORIOSA_LILY,
+            () -> new FlowerPotBlock(ModBlocks.GLORIOSA_LILY.get(),
                     BlockBehaviour.Properties.copy(Blocks.POTTED_DANDELION).noOcclusion()));
     public static final RegistryObject<Block> POTTED_CAPE_ALOE = BLOCKS.register("potted_cape_aloe",
-            () -> new FlowerPotBlock(null, ModBlocks.CAPE_ALOE,
+            () -> new FlowerPotBlock(ModBlocks.CAPE_ALOE.get(),
                     BlockBehaviour.Properties.copy(Blocks.POTTED_DANDELION).noOcclusion()));
     public static final RegistryObject<Block> POTTED_RED_SUNFLOWER = BLOCKS.register("potted_red_sunflower",
-            () -> new FlowerPotBlock(null, ModBlocks.RED_SUNFLOWER,
+            () -> new FlowerPotBlock(ModBlocks.RED_SUNFLOWER.get(),
                     BlockBehaviour.Properties.copy(Blocks.POTTED_DANDELION).noOcclusion()));
     public static final RegistryObject<Block> POTTED_PARADOX_SUNFLOWER = BLOCKS.register("potted_paradox_sunflower",
-            () -> new FlowerPotBlock(null, ModBlocks.PARADOX_SUNFLOWER,
+            () -> new FlowerPotBlock(ModBlocks.PARADOX_SUNFLOWER.get(),
                     BlockBehaviour.Properties.copy(Blocks.POTTED_DANDELION).noOcclusion()));
     public static final RegistryObject<Block> POTTED_DRIED_SUNFLOWER = BLOCKS.register("potted_dried_sunflower",
-            () -> new FlowerPotBlock(null, ModBlocks.DRIED_SUNFLOWER,
+            () -> new FlowerPotBlock(ModBlocks.DRIED_SUNFLOWER.get(),
                     BlockBehaviour.Properties.copy(Blocks.POTTED_DANDELION).noOcclusion()));
     public static final RegistryObject<Block> POTTED_SKYSCRAPER_SUNFLOWER = BLOCKS.register("potted_skyscraper_sunflower",
-            () -> new FlowerPotBlock(null, ModBlocks.SKYSCRAPER_SUNFLOWER,
+            () -> new FlowerPotBlock(ModBlocks.SKYSCRAPER_SUNFLOWER.get(),
                     BlockBehaviour.Properties.copy(Blocks.POTTED_DANDELION).noOcclusion()));
     public static final RegistryObject<Block> POTTED_SUNDANCE_KID_SUNFLOWER = BLOCKS.register("potted_sundance_kid_sunflower",
-            () -> new FlowerPotBlock(null, ModBlocks.SUNDANCE_KID_SUNFLOWER,
+            () -> new FlowerPotBlock(ModBlocks.SUNDANCE_KID_SUNFLOWER.get(),
                     BlockBehaviour.Properties.copy(Blocks.POTTED_DANDELION).noOcclusion()));
     public static final RegistryObject<Block> POTTED_TEDDY_BEAR_SUNFLOWER = BLOCKS.register("potted_teddy_bear_sunflower",
-            () -> new FlowerPotBlock(null, ModBlocks.TEDDY_BEAR_SUNFLOWER,
+            () -> new FlowerPotBlock(ModBlocks.TEDDY_BEAR_SUNFLOWER.get(),
                     BlockBehaviour.Properties.copy(Blocks.POTTED_DANDELION).noOcclusion()));
     public static final RegistryObject<Block> POTTED_TALL_ORANGE_COSMOS = BLOCKS.register("potted_tall_orange_cosmos",
-            () -> new FlowerPotBlock(null, ModBlocks.TALL_ORANGE_COSMOS,
+            () -> new FlowerPotBlock(ModBlocks.TALL_ORANGE_COSMOS.get(),
                     BlockBehaviour.Properties.copy(Blocks.POTTED_DANDELION).noOcclusion()));
     public static final RegistryObject<Block> POTTED_ORANGE_GLADIOLA = BLOCKS.register("potted_orange_gladiola",
-            () -> new FlowerPotBlock(null, ModBlocks.ORANGE_GLADIOLA,
+            () -> new FlowerPotBlock(ModBlocks.ORANGE_GLADIOLA.get(),
                     BlockBehaviour.Properties.copy(Blocks.POTTED_DANDELION).noOcclusion()));
     public static final RegistryObject<Block> POTTED_PEACH_GLADIOLA = BLOCKS.register("potted_peach_gladiola",
-            () -> new FlowerPotBlock(null, ModBlocks.PEACH_GLADIOLA,
+            () -> new FlowerPotBlock(ModBlocks.PEACH_GLADIOLA.get(),
                     BlockBehaviour.Properties.copy(Blocks.POTTED_DANDELION).noOcclusion()));
     public static final RegistryObject<Block> POTTED_GLADIOLA = BLOCKS.register("potted_gladiola",
-            () -> new FlowerPotBlock(null, ModBlocks.GLADIOLA,
+            () -> new FlowerPotBlock(ModBlocks.GLADIOLA.get(),
                     BlockBehaviour.Properties.copy(Blocks.POTTED_DANDELION).noOcclusion()));
     public static final RegistryObject<Block> POTTED_CRIMSON_GLADIOLA = BLOCKS.register("potted_crimson_gladiola",
-            () -> new FlowerPotBlock(null, ModBlocks.CRIMSON_GLADIOLA,
+            () -> new FlowerPotBlock(ModBlocks.CRIMSON_GLADIOLA.get(),
                     BlockBehaviour.Properties.copy(Blocks.POTTED_DANDELION).noOcclusion()));
     public static final RegistryObject<Block> POTTED_QUINCE = BLOCKS.register("potted_quince",
-            () -> new FlowerPotBlock(null, ModBlocks.QUINCE,
+            () -> new FlowerPotBlock(ModBlocks.QUINCE.get(),
                     BlockBehaviour.Properties.copy(Blocks.POTTED_DANDELION).noOcclusion()));
     public static final RegistryObject<Block> POTTED_HAWTHORNE = BLOCKS.register("potted_hawthorne",
-            () -> new FlowerPotBlock(null, ModBlocks.HAWTHORNE,
+            () -> new FlowerPotBlock(ModBlocks.HAWTHORNE.get(),
                     BlockBehaviour.Properties.copy(Blocks.POTTED_DANDELION).noOcclusion()));
     public static final RegistryObject<Block> POTTED_ORNAMENTAL_CHERRY = BLOCKS.register("potted_ornamental_cherry",
-            () -> new FlowerPotBlock(null, ModBlocks.ORNAMENTAL_CHERRY,
+            () -> new FlowerPotBlock(ModBlocks.ORNAMENTAL_CHERRY.get(),
                     BlockBehaviour.Properties.copy(Blocks.POTTED_DANDELION).noOcclusion()));
     public static final RegistryObject<Block> POTTED_DATURA = BLOCKS.register("potted_datura",
-            () -> new FlowerPotBlock(null, ModBlocks.DATURA,
+            () -> new FlowerPotBlock(ModBlocks.DATURA.get(),
                     BlockBehaviour.Properties.copy(Blocks.POTTED_DANDELION).noOcclusion()));
     public static final RegistryObject<Block> POTTED_MANZANITA_BUSH = BLOCKS.register("potted_manzanita_bush",
-            () -> new FlowerPotBlock(null, ModBlocks.MANZANITA_BUSH,
+            () -> new FlowerPotBlock(ModBlocks.MANZANITA_BUSH.get(),
                     BlockBehaviour.Properties.copy(Blocks.POTTED_DANDELION).noOcclusion()));
     public static final RegistryObject<Block> POTTED_IRIS = BLOCKS.register("potted_iris",
-            () -> new FlowerPotBlock(null, ModBlocks.IRIS,
+            () -> new FlowerPotBlock(ModBlocks.IRIS.get(),
                     BlockBehaviour.Properties.copy(Blocks.POTTED_DANDELION).noOcclusion()));
     public static final RegistryObject<Block> POTTED_TALL_LUPIN = BLOCKS.register("potted_tall_lupin",
-            () -> new FlowerPotBlock(null, ModBlocks.TALL_LUPIN,
+            () -> new FlowerPotBlock(ModBlocks.TALL_LUPIN.get(),
                     BlockBehaviour.Properties.copy(Blocks.POTTED_DANDELION).noOcclusion()));
     public static final RegistryObject<Block> POTTED_PURPLE_SWEET_PEAS = BLOCKS.register("potted_purple_sweet_peas",
-            () -> new FlowerPotBlock(null, ModBlocks.PURPLE_SWEET_PEAS,
+            () -> new FlowerPotBlock(ModBlocks.PURPLE_SWEET_PEAS.get(),
                     BlockBehaviour.Properties.copy(Blocks.POTTED_DANDELION).noOcclusion()));
     public static final RegistryObject<Block> POTTED_DARK_BLUE_SWEET_PEAS = BLOCKS.register("potted_dark_blue_sweet_peas",
-            () -> new FlowerPotBlock(null, ModBlocks.DARK_BLUE_SWEET_PEAS,
+            () -> new FlowerPotBlock(ModBlocks.DARK_BLUE_SWEET_PEAS.get(),
                     BlockBehaviour.Properties.copy(Blocks.POTTED_DANDELION).noOcclusion()));
     public static final RegistryObject<Block> POTTED_BLUE_BELL_SWEET_PEAS = BLOCKS.register("potted_blue_bell_sweet_peas",
-            () -> new FlowerPotBlock(null, ModBlocks.BLUE_BELL_SWEET_PEAS,
+            () -> new FlowerPotBlock(ModBlocks.BLUE_BELL_SWEET_PEAS.get(),
                     BlockBehaviour.Properties.copy(Blocks.POTTED_DANDELION).noOcclusion()));
     public static final RegistryObject<Block> POTTED_MIXED_PINK_SWEET_PEAS = BLOCKS.register("potted_mixed_pink_sweet_peas",
-            () -> new FlowerPotBlock(null, ModBlocks.MIXED_PINK_SWEET_PEAS,
+            () -> new FlowerPotBlock(ModBlocks.MIXED_PINK_SWEET_PEAS.get(),
                     BlockBehaviour.Properties.copy(Blocks.POTTED_DANDELION).noOcclusion()));
     public static final RegistryObject<Block> POTTED_MAGENTA_SWEET_PEAS = BLOCKS.register("potted_magenta_sweet_peas",
-            () -> new FlowerPotBlock(null, ModBlocks.MAGENTA_SWEET_PEAS,
+            () -> new FlowerPotBlock(ModBlocks.MAGENTA_SWEET_PEAS.get(),
                     BlockBehaviour.Properties.copy(Blocks.POTTED_DANDELION).noOcclusion()));
     public static final RegistryObject<Block> POTTED_BRIGHT_MAGENTA_SWEET_PEAS = BLOCKS.register("potted_bright_magenta_sweet_peas",
-            () -> new FlowerPotBlock(null, ModBlocks.BRIGHT_MAGENTA_SWEET_PEAS,
+            () -> new FlowerPotBlock(ModBlocks.BRIGHT_MAGENTA_SWEET_PEAS.get(),
                     BlockBehaviour.Properties.copy(Blocks.POTTED_DANDELION).noOcclusion()));
     public static final RegistryObject<Block> POTTED_TALL_COSMOS = BLOCKS.register("potted_tall_cosmos",
-            () -> new FlowerPotBlock(null, ModBlocks.TALL_COSMOS,
+            () -> new FlowerPotBlock(ModBlocks.TALL_COSMOS.get(),
                     BlockBehaviour.Properties.copy(Blocks.POTTED_DANDELION).noOcclusion()));
     public static final RegistryObject<Block> POTTED_MENDOCINO_POPPY = BLOCKS.register("potted_mendocino_poppy",
-            () -> new FlowerPotBlock(null, ModBlocks.MENDOCINO_POPPY,
+            () -> new FlowerPotBlock(ModBlocks.MENDOCINO_POPPY.get(),
                     BlockBehaviour.Properties.copy(Blocks.POTTED_DANDELION).noOcclusion()));
     public static final RegistryObject<Block> POTTED_TALL_CALLA_LILY = BLOCKS.register("potted_tall_calla_lily",
-            () -> new FlowerPotBlock(null, ModBlocks.TALL_CALLA_LILY,
+            () -> new FlowerPotBlock(ModBlocks.TALL_CALLA_LILY.get(),
                     BlockBehaviour.Properties.copy(Blocks.POTTED_DANDELION).noOcclusion()));
     public static final RegistryObject<Block> POTTED_WHITE_LARKSPUR = BLOCKS.register("potted_white_larkspur",
-            () -> new FlowerPotBlock(null, ModBlocks.WHITE_LARKSPUR,
+            () -> new FlowerPotBlock(ModBlocks.WHITE_LARKSPUR.get(),
                     BlockBehaviour.Properties.copy(Blocks.POTTED_DANDELION).noOcclusion()));
     public static final RegistryObject<Block> POTTED_LAVENDER_LARKSPUR = BLOCKS.register("potted_lavender_larkspur",
-            () -> new FlowerPotBlock(null, ModBlocks.LAVENDER_LARKSPUR,
+            () -> new FlowerPotBlock(ModBlocks.LAVENDER_LARKSPUR.get(),
                     BlockBehaviour.Properties.copy(Blocks.POTTED_DANDELION).noOcclusion()));
     public static final RegistryObject<Block> POTTED_LARKSPUR = BLOCKS.register("potted_larkspur",
-            () -> new FlowerPotBlock(null, ModBlocks.LARKSPUR,
+            () -> new FlowerPotBlock(ModBlocks.LARKSPUR.get(),
                     BlockBehaviour.Properties.copy(Blocks.POTTED_DANDELION).noOcclusion()));
     public static final RegistryObject<Block> POTTED_PURPLE_LARKSPUR = BLOCKS.register("potted_purple_larkspur",
-            () -> new FlowerPotBlock(null, ModBlocks.PURPLE_LARKSPUR,
+            () -> new FlowerPotBlock(ModBlocks.PURPLE_LARKSPUR.get(),
                     BlockBehaviour.Properties.copy(Blocks.POTTED_DANDELION).noOcclusion()));
     public static final RegistryObject<Block> POTTED_MAGENTA_LARKSPUR = BLOCKS.register("potted_magenta_larkspur",
-            () -> new FlowerPotBlock(null, ModBlocks.MAGENTA_LARKSPUR,
+            () -> new FlowerPotBlock(ModBlocks.MAGENTA_LARKSPUR.get(),
                     BlockBehaviour.Properties.copy(Blocks.POTTED_DANDELION).noOcclusion()));
     public static final RegistryObject<Block> POTTED_PINK_LARKSPUR = BLOCKS.register("potted_pink_larkspur",
-            () -> new FlowerPotBlock(null, ModBlocks.PINK_LARKSPUR,
+            () -> new FlowerPotBlock(ModBlocks.PINK_LARKSPUR.get(),
                     BlockBehaviour.Properties.copy(Blocks.POTTED_DANDELION).noOcclusion()));
     public static final RegistryObject<Block> POTTED_LIGHT_PINK_LARKSPUR = BLOCKS.register("potted_light_pink_larkspur",
-            () -> new FlowerPotBlock(null, ModBlocks.LIGHT_PINK_LARKSPUR,
+            () -> new FlowerPotBlock(ModBlocks.LIGHT_PINK_LARKSPUR.get(),
                     BlockBehaviour.Properties.copy(Blocks.POTTED_DANDELION).noOcclusion()));
     public static final RegistryObject<Block> POTTED_HIMALAYAN_BLUE_POPPY = BLOCKS.register("potted_himalayan_blue_poppy",
-            () -> new FlowerPotBlock(null, ModBlocks.HIMALAYAN_BLUE_POPPY,
+            () -> new FlowerPotBlock(ModBlocks.HIMALAYAN_BLUE_POPPY.get(),
                     BlockBehaviour.Properties.copy(Blocks.POTTED_DANDELION).noOcclusion()));
     public static final RegistryObject<Block> POTTED_MOJAVE_INDIGO_BUSH = BLOCKS.register("potted_mojave_indigo_bush",
-            () -> new FlowerPotBlock(null, ModBlocks.MOJAVE_INDIGO_BUSH,
+            () -> new FlowerPotBlock(ModBlocks.MOJAVE_INDIGO_BUSH.get(),
                     BlockBehaviour.Properties.copy(Blocks.POTTED_DANDELION).noOcclusion()));
     public static final RegistryObject<Block> POTTED_DRY_SHRUB = BLOCKS.register("potted_dry_shrub",
-            () -> new FlowerPotBlock(null, ModBlocks.DRY_SHRUB,
+            () -> new FlowerPotBlock(ModBlocks.DRY_SHRUB.get(),
                     BlockBehaviour.Properties.copy(Blocks.POTTED_DANDELION).noOcclusion()));
     public static final RegistryObject<Block> POTTED_YUCCA_FLOWER = BLOCKS.register("potted_yucca_flower",
-            () -> new FlowerPotBlock(null, ModBlocks.YUCCA_FLOWER,
+            () -> new FlowerPotBlock(ModBlocks.YUCCA_FLOWER.get(),
                     BlockBehaviour.Properties.copy(Blocks.POTTED_DANDELION).noOcclusion()));
     public static final RegistryObject<Block> POTTED_OCOTILLO = BLOCKS.register("potted_ocotillo",
-            () -> new FlowerPotBlock(null, ModBlocks.OCOTILLO,
+            () -> new FlowerPotBlock(ModBlocks.OCOTILLO.get(),
                     BlockBehaviour.Properties.copy(Blocks.POTTED_DANDELION).noOcclusion()));
     public static final RegistryObject<Block> POTTED_TALL_CACTUS = BLOCKS.register("potted_tall_cactus",
-            () -> new FlowerPotBlock(null, ModBlocks.TALL_CACTUS,
+            () -> new FlowerPotBlock(ModBlocks.TALL_CACTUS.get(),
                     BlockBehaviour.Properties.copy(Blocks.POTTED_DANDELION).noOcclusion()));
-
-
 }
