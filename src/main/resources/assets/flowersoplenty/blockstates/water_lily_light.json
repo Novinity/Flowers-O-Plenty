@@ -1,0 +1,10 @@
+{
+    "variants": {
+        "": [
+            { "model": "flowersoplenty:block/water_lily_light" },
+            { "model": "flowersoplenty:block/water_lily_light", "y": 90 },
+            { "model": "flowersoplenty:block/water_lily_light", "y": 180 },
+            { "model": "flowersoplenty:block/water_lily_light", "y": 270 }
+        ]
+    }
+}

@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#flowersoplenty:is_desert_yellow",
+  "features": "flowersoplenty:desert_yellow",
+  "step": "vegetal_decoration"
+}

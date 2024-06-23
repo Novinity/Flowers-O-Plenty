@@ -1,0 +1,10 @@
+{
+    "variants": {
+        "": [
+            { "model": "flowersoplenty:block/red_reishi" },
+            { "model": "flowersoplenty:block/red_reishi", "y": 90 },
+            { "model": "flowersoplenty:block/red_reishi", "y": 180 },
+            { "model": "flowersoplenty:block/red_reishi", "y": 270 }
+        ]
+    }
+}

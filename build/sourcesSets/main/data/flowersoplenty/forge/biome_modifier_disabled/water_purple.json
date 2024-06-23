@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#flowersoplenty:is_water_purple",
+  "features": "flowersoplenty:water_purple",
+  "step": "vegetal_decoration"
+}

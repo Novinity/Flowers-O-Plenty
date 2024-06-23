@@ -1,0 +1,6 @@
+{
+    "textures": {
+        "cross": "flowersoplenty:block/light_blue_forget_me_not"
+    }, 
+    "parent": "block/cross"
+}

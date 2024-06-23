@@ -1,0 +1,6 @@
+{
+    "textures": {
+        "cross": "flowersoplenty:block/buckwheat_red"
+    }, 
+    "parent": "block/cross"
+}

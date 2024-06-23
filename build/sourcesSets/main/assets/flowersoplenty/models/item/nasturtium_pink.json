@@ -1,0 +1,6 @@
+{
+    "textures": {
+        "layer0": "flowersoplenty:block/nasturtium_pink"
+    }, 
+    "parent": "item/generated"
+}

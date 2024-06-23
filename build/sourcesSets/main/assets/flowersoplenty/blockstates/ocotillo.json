@@ -1,0 +1,10 @@
+{
+    "variants": {
+        "half=lower": {
+            "model": "flowersoplenty:block/ocotillo_bottom"
+        }, 
+        "half=upper": {
+            "model": "flowersoplenty:block/ocotillo_top"
+        }
+    }
+}

@@ -1,0 +1,6 @@
+{
+    "textures": {
+        "cross": "flowersoplenty:block/tall_calla_lily_bottom"
+    }, 
+    "parent": "block/cross"
+}

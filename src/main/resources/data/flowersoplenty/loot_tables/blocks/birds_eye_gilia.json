@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "flowersoplenty:birds_eye_gilia"
+        }
+      ],
+      "name": "flowersoplenty:birds_eye_gilia",
+      "rolls": 1.0
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+    "textures": {
+        "plant": "flowersoplenty:block/virginia_cowslip"
+    },
+    "parent": "block/flower_pot_cross"
+}

@@ -1,0 +1,10 @@
+{
+    "variants": {
+        "half=lower": {
+            "model": "flowersoplenty:block/dry_shrub_bottom"
+        }, 
+        "half=upper": {
+            "model": "flowersoplenty:block/dry_shrub_top"
+        }
+    }
+}

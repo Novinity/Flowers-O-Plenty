@@ -1,0 +1,6 @@
+{
+    "textures": {
+        "cross": "flowersoplenty:block/tall_orange_cosmos_top"
+    }, 
+    "parent": "block/cross"
+}

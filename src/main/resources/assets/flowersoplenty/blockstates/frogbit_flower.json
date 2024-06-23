@@ -1,0 +1,10 @@
+{
+    "variants": {
+        "": [
+            { "model": "flowersoplenty:block/frogbit_flower" },
+            { "model": "flowersoplenty:block/frogbit_flower", "y": 90 },
+            { "model": "flowersoplenty:block/frogbit_flower", "y": 180 },
+            { "model": "flowersoplenty:block/frogbit_flower", "y": 270 }
+        ]
+    }
+}

@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#flowersoplenty:is_water_sunfire",
+  "features": "flowersoplenty:water_sunfire",
+  "step": "vegetal_decoration"
+}

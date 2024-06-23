@@ -1,0 +1,10 @@
+{
+    "variants": {
+        "half=lower": {
+            "model": "flowersoplenty:block/staked_blue_bell_sweet_peas_bottom"
+        }, 
+        "half=upper": {
+            "model": "flowersoplenty:block/staked_blue_bell_sweet_peas_top"
+        }
+    }
+}

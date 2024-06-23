@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "flowersoplenty:sundance_kid_sunflower"
+    },
+    {
+      "item": "flowersoplenty:rubber_band"
+    }
+  ],
+  "result": {
+    "item": "flowersoplenty:bouquet",
+    "count": 1
+  }
+}

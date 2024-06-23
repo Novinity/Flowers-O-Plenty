@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "flowersoplenty:mojave_indigo_bush"
+    },
+    {
+      "item": "flowersoplenty:rubber_band"
+    }
+  ],
+  "result": {
+    "item": "flowersoplenty:bouquet",
+    "count": 1
+  }
+}

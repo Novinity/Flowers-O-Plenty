@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "flowersoplenty:item/bamboo_golden_item"
+  }
+}

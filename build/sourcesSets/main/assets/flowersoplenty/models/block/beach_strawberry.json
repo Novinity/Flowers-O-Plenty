@@ -1,0 +1,6 @@
+{
+    "textures": {
+        "cross": "flowersoplenty:block/beach_strawberry"
+    }, 
+    "parent": "block/cross"
+}

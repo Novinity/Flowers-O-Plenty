@@ -1,0 +1,10 @@
+{
+    "variants": {
+        "": [
+            { "model": "flowersoplenty:block/water_lily_lavender" },
+            { "model": "flowersoplenty:block/water_lily_lavender", "y": 90 },
+            { "model": "flowersoplenty:block/water_lily_lavender", "y": 180 },
+            { "model": "flowersoplenty:block/water_lily_lavender", "y": 270 }
+        ]
+    }
+}

@@ -1,0 +1,6 @@
+{
+    "textures": {
+        "cross": "flowersoplenty:block/peach_gladiola_bottom"
+    }, 
+    "parent": "block/cross"
+}

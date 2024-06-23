@@ -1,0 +1,6 @@
+{
+    "textures": {
+        "layer0": "flowersoplenty:block/magenta_larkspur_top"
+    }, 
+    "parent": "item/generated"
+}

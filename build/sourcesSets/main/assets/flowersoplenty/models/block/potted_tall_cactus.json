@@ -1,0 +1,7 @@
+{
+    "textures": {
+        "top": "flowersoplenty:block/tall_cactus_top",
+        "bottom": "flowersoplenty:block/tall_cactus_bottom"
+    },
+    "parent": "flowersoplenty:block/tall_flower_pot_cross"
+}

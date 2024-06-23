@@ -1,0 +1,6 @@
+{
+    "textures": {
+        "cross": "flowersoplenty:block/desert_sturt_pea"
+    }, 
+    "parent": "block/cross"
+}

@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "conditions": [
+            {
+              "block": "flowersoplenty:sundance_kid_sunflower",
+              "condition": "minecraft:block_state_property",
+              "properties": {
+                "half": "lower"
+              }
+            }
+          ],
+          "name": "flowersoplenty:sundance_kid_sunflower"
+        }
+      ],
+      "name": "flowersoplenty:sundance_kid_sunflower",
+      "rolls": 1.0
+    }
+  ]
+}

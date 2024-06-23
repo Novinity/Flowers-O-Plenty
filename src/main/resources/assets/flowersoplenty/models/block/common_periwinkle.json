@@ -1,0 +1,6 @@
+{
+    "textures": {
+        "cross": "flowersoplenty:block/common_periwinkle"
+    }, 
+    "parent": "block/cross"
+}

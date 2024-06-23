@@ -1,0 +1,6 @@
+{
+    "textures": {
+        "layer0": "flowersoplenty:block/bright_magenta_sweet_peas_top"
+    }, 
+    "parent": "item/generated"
+}

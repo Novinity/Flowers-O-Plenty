@@ -1,0 +1,6 @@
+{
+    "textures": {
+        "layer0": "flowersoplenty:block/himalayan_blue_poppy_top"
+    }, 
+    "parent": "item/generated"
+}

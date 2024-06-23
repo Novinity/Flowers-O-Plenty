@@ -1,0 +1,6 @@
+{
+    "textures": {
+        "cross": "flowersoplenty:block/wolfs_bane"
+    }, 
+    "parent": "block/cross"
+}

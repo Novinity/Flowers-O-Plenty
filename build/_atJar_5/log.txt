@@ -1,0 +1,7 @@
+Java Launcher: C:\Program Files\Java\jdk-21\bin\java.exe
+Arguments: '--inJar, F:\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.21-51.0.17\forge-1.21-51.0.17-injected.jar, --outJar, F:\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.21-51.0.17_mapped_official_1.21\forge-1.21-51.0.17_mapped_official_1.21.jar, --logFile, accesstransform.log, --atFile, F:\Programming\Java\Minecraft\Mods\1.21\FlowersOPlenty\build\_atJar_5\parent_at.cfg'
+Classpath:
+ - F:\.gradle\caches\forge_gradle\maven_downloader\net\minecraftforge\accesstransformers\8.2.0\accesstransformers-8.2.0-fatjar.jar
+Working directory: F:\Programming\Java\Minecraft\Mods\1.21\FlowersOPlenty\build\_atJar_5
+Main class: net.minecraftforge.accesstransformer.TransformerProcessor
+====================================

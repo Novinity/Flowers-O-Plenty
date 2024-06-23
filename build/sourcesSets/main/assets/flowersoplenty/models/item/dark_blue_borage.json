@@ -1,0 +1,6 @@
+{
+    "textures": {
+        "layer0": "flowersoplenty:block/dark_blue_borage"
+    }, 
+    "parent": "item/generated"
+}

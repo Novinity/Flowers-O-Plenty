@@ -1,0 +1,6 @@
+{
+    "textures": {
+        "cross": "flowersoplenty:block/cracking_russula"
+    }, 
+    "parent": "block/cross"
+}

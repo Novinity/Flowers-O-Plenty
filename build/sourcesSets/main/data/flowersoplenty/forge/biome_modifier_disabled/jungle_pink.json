@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#flowersoplenty:is_jungle_pink",
+  "features": "flowersoplenty:jungle_pink",
+  "step": "vegetal_decoration"
+}

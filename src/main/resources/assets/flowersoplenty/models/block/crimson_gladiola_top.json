@@ -1,0 +1,6 @@
+{
+    "textures": {
+        "cross": "flowersoplenty:block/crimson_gladiola_top"
+    }, 
+    "parent": "block/cross"
+}

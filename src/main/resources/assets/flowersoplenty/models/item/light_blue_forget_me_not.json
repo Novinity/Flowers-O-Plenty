@@ -1,0 +1,6 @@
+{
+    "textures": {
+        "layer0": "flowersoplenty:block/light_blue_forget_me_not"
+    }, 
+    "parent": "item/generated"
+}

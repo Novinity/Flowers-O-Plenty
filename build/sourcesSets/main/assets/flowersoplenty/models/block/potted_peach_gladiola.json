@@ -1,0 +1,7 @@
+{
+    "textures": {
+        "top": "flowersoplenty:block/peach_gladiola_top",
+        "bottom": "flowersoplenty:block/peach_gladiola_bottom"
+    },
+    "parent": "flowersoplenty:block/tall_flower_pot_cross"
+}

@@ -1,0 +1,6 @@
+{
+    "textures": {
+        "plant": "flowersoplenty:block/dahlia"
+    },
+    "parent": "block/flower_pot_cross"
+}

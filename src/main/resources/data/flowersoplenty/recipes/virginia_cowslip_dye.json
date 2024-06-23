@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "flowersoplenty:virginia_cowslip"
+    }
+  ],
+  "result": {
+    "item": "minecraft:blue_dye",
+    "count": 1
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#flowersoplenty:is_clover",
+  "features": "flowersoplenty:clover",
+  "step": "vegetal_decoration"
+}

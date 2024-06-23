@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "conditions": [
+            {
+              "block": "flowersoplenty:datura",
+              "condition": "minecraft:block_state_property",
+              "properties": {
+                "half": "lower"
+              }
+            }
+          ],
+          "name": "flowersoplenty:datura"
+        }
+      ],
+      "name": "flowersoplenty:datura",
+      "rolls": 1.0
+    }
+  ]
+}

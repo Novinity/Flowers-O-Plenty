@@ -1,0 +1,6 @@
+{
+    "textures": {
+        "layer0": "flowersoplenty:item/staked_morning_glory"
+    }, 
+    "parent": "item/generated"
+}

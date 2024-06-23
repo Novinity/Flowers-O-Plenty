@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#flowersoplenty:is_fungus_turkey_tail",
+  "features": "flowersoplenty:fungus_turkey_tail",
+  "step": "vegetal_decoration"
+}

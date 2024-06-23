@@ -1,0 +1,6 @@
+{
+    "textures": {
+        "cross": "flowersoplenty:block/notch_leaf_scorpion_weed"
+    }, 
+    "parent": "block/cross"
+}

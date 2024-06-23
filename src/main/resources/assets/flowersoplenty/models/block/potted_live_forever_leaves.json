@@ -1,0 +1,6 @@
+{
+    "textures": {
+        "plant": "flowersoplenty:block/live_forever_leaves"
+    },
+    "parent": "block/flower_pot_cross"
+}

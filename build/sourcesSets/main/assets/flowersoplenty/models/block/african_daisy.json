@@ -1,0 +1,6 @@
+{
+    "textures": {
+        "cross": "flowersoplenty:block/african_daisy"
+    }, 
+    "parent": "block/cross"
+}

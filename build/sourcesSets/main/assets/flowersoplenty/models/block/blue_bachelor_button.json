@@ -1,0 +1,6 @@
+{
+    "textures": {
+        "cross": "flowersoplenty:block/blue_bachelor_button"
+    }, 
+    "parent": "block/cross"
+}

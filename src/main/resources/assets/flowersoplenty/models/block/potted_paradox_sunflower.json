@@ -1,0 +1,7 @@
+{
+    "textures": {
+        "top": "flowersoplenty:block/paradox_sunflower_top",
+        "bottom": "flowersoplenty:block/paradox_sunflower_bottom"
+    },
+    "parent": "flowersoplenty:block/tall_flower_pot_cross"
+}

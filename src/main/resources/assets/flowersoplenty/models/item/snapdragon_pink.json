@@ -1,0 +1,6 @@
+{
+    "textures": {
+        "layer0": "flowersoplenty:block/snapdragon_pink"
+    }, 
+    "parent": "item/generated"
+}

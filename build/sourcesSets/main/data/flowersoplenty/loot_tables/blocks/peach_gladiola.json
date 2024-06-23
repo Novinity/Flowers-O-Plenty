@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "conditions": [
+            {
+              "block": "flowersoplenty:peach_gladiola",
+              "condition": "minecraft:block_state_property",
+              "properties": {
+                "half": "lower"
+              }
+            }
+          ],
+          "name": "flowersoplenty:peach_gladiola"
+        }
+      ],
+      "name": "flowersoplenty:peach_gladiola",
+      "rolls": 1.0
+    }
+  ]
+}

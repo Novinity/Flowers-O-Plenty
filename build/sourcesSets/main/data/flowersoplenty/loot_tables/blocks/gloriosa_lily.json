@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "conditions": [
+            {
+              "block": "flowersoplenty:gloriosa_lily",
+              "condition": "minecraft:block_state_property",
+              "properties": {
+                "half": "lower"
+              }
+            }
+          ],
+          "name": "flowersoplenty:gloriosa_lily"
+        }
+      ],
+      "name": "flowersoplenty:gloriosa_lily",
+      "rolls": 1.0
+    }
+  ]
+}

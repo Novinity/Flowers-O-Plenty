@@ -1,0 +1,6 @@
+{
+    "textures": {
+        "layer0": "flowersoplenty:block/iris_fancy_dress_top"
+    }, 
+    "parent": "item/generated"
+}

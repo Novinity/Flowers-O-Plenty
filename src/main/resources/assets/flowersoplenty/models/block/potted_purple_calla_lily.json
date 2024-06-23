@@ -1,0 +1,6 @@
+{
+    "textures": {
+        "plant": "flowersoplenty:block/purple_calla_lily"
+    },
+    "parent": "block/flower_pot_cross"
+}

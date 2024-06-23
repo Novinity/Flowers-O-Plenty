@@ -1,0 +1,6 @@
+{
+    "textures": {
+        "layer0": "flowersoplenty:block/creeping_thyme"
+    }, 
+    "parent": "item/generated"
+}

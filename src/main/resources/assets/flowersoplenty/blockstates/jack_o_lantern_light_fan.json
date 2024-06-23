@@ -1,0 +1,19 @@
+{
+    "variants": {
+        "facing=east": {
+            "model": "flowersoplenty:block/jack_o_lantern_light_fan",
+            "y": 90
+        },
+        "facing=north": {
+            "model": "flowersoplenty:block/jack_o_lantern_light_fan"
+        },
+        "facing=south": {
+            "model": "flowersoplenty:block/jack_o_lantern_light_fan",
+            "y": 180
+        },
+        "facing=west": {
+            "model": "flowersoplenty:block/jack_o_lantern_light_fan",
+            "y": 270
+        }
+    }
+}

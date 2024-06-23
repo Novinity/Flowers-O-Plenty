@@ -1,0 +1,6 @@
+{
+    "textures": {
+        "cross": "flowersoplenty:block/manzanita_bush_bottom"
+    }, 
+    "parent": "block/cross"
+}

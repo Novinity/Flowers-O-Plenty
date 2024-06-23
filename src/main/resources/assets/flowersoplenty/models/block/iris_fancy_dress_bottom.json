@@ -1,0 +1,6 @@
+{
+    "textures": {
+        "cross": "flowersoplenty:block/iris_fancy_dress_bottom"
+    }, 
+    "parent": "block/cross"
+}

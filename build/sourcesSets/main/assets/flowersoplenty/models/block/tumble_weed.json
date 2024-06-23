@@ -1,0 +1,6 @@
+{
+    "textures": {
+        "cross": "flowersoplenty:block/tumble_weed"
+    }, 
+    "parent": "block/cross"
+}

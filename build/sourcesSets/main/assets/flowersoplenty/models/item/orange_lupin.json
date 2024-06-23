@@ -1,0 +1,6 @@
+{
+    "textures": {
+        "layer0": "flowersoplenty:block/orange_lupin"
+    }, 
+    "parent": "item/generated"
+}

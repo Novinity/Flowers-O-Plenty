@@ -1,0 +1,6 @@
+{
+    "textures": {
+        "layer0": "flowersoplenty:block/nuphar"
+    }, 
+    "parent": "item/generated"
+}

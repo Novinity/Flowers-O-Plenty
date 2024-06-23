@@ -1,0 +1,6 @@
+{
+    "textures": {
+        "plant": "flowersoplenty:block/dark_blue_borage"
+    },
+    "parent": "block/flower_pot_cross"
+}

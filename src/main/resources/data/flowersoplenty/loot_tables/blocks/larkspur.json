@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "conditions": [
+            {
+              "block": "flowersoplenty:larkspur",
+              "condition": "minecraft:block_state_property",
+              "properties": {
+                "half": "lower"
+              }
+            }
+          ],
+          "name": "flowersoplenty:larkspur"
+        }
+      ],
+      "name": "flowersoplenty:larkspur",
+      "rolls": 1.0
+    }
+  ]
+}

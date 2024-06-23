@@ -1,0 +1,6 @@
+{
+    "textures": {
+        "cross": "flowersoplenty:block/blue_bell_sweet_peas_bottom"
+    }, 
+    "parent": "block/cross"
+}

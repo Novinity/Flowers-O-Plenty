@@ -1,0 +1,6 @@
+{
+    "textures": {
+        "plant": "flowersoplenty:block/red_freesia"
+    },
+    "parent": "block/flower_pot_cross"
+}

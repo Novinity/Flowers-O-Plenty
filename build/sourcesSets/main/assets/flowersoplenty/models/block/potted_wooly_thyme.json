@@ -1,0 +1,6 @@
+{
+    "textures": {
+        "plant": "flowersoplenty:block/wooly_thyme"
+    },
+    "parent": "block/flower_pot_cross"
+}

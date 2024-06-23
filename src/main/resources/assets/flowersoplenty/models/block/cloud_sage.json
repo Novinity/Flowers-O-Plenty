@@ -1,0 +1,200 @@
+{
+    "__comment": "Model & Textures by c0_0ry",
+    "textures": {
+        "particle": "flowersoplenty:block/cloud_sage_flower",
+        "-1": "flowersoplenty:block/cloud_sage_flower",
+        "0": "flowersoplenty:block/cloud_sage_leavesa",
+        "1": "flowersoplenty:block/cloud_sage_leavesb",
+        "4": "flowersoplenty:block/cloud_sage_leavesc",
+        "2": "flowersoplenty:block/cloud_sage_flowerb",
+        "3": "flowersoplenty:block/cloud_sage_flowerc"
+    },
+    "elements": [
+        {
+            "name": "Flower Middle Front",
+            "from": [ 7.0, 10.0, 5.0 ],
+            "to": [ 10.0, 16.0, 5.0 ],
+            "shade": false,
+            "faces": {
+                "north": { "texture": "#-1", "uv": [ 0.0, 0.0, 3.0, 6.0 ] },
+                "south": { "texture": "#-1", "uv": [ 0.0, 0.0, 3.0, 6.0 ] }
+            }
+        },
+        {
+            "name": "Flower Middle Back",
+            "from": [ 7.0, 10.0, 4.0 ],
+            "to": [ 10.0, 16.0, 4.0 ],
+            "shade": false,
+            "faces": {
+                "north": { "texture": "#-1", "uv": [ 0.0, 0.0, 3.0, 6.0 ] },
+                "south": { "texture": "#-1", "uv": [ 0.0, 0.0, 3.0, 6.0 ] }
+            }
+        },
+        {
+            "name": "Flower Middle Left",
+            "from": [ 8.0, 10.0, 3.0 ],
+            "to": [ 8.0, 16.0, 6.0 ],
+            "shade": false,
+            "faces": {
+                "east": { "texture": "#-1", "uv": [ 0.0, 0.0, 3.0, 6.0 ] },
+                "west": { "texture": "#-1", "uv": [ 0.0, 0.0, 3.0, 6.0 ] }
+            }
+        },
+        {
+            "name": "Flower Middle Right",
+            "from": [ 9.0, 10.0, 3.0 ],
+            "to": [ 9.0, 16.0, 6.0 ],
+            "shade": false,
+            "faces": {
+                "east": { "texture": "#-1", "uv": [ 0.0, 0.0, 3.0, 6.0 ] },
+                "west": { "texture": "#-1", "uv": [ 0.0, 0.0, 3.0, 6.0 ] }
+            }
+        },
+        {
+            "name": "Flower Left Front",
+            "from": [ 3.0, 7.0, 11.0 ],
+            "to": [ 6.0, 13.0, 11.0 ],
+            "shade": false,
+            "faces": {
+                "north": { "texture": "#3", "uv": [ 0.0, 0.0, 3.0, 6.0 ] },
+                "south": { "texture": "#3", "uv": [ 0.0, 0.0, 3.0, 6.0 ] }
+            }
+        },
+        {
+            "name": "Flower Left Back",
+            "from": [ 3.0, 7.0, 10.0 ],
+            "to": [ 6.0, 13.0, 10.0 ],
+            "shade": false,
+            "faces": {
+                "north": { "texture": "#3", "uv": [ 0.0, 0.0, 3.0, 6.0 ] },
+                "south": { "texture": "#3", "uv": [ 0.0, 0.0, 3.0, 6.0 ] }
+            }
+        },
+        {
+            "name": "Flower Left Left",
+            "from": [ 4.0, 7.0, 9.0 ],
+            "to": [ 4.0, 13.0, 12.0 ],
+            "shade": false,
+            "faces": {
+                "east": { "texture": "#3", "uv": [ 0.0, 0.0, 3.0, 6.0 ] },
+                "west": { "texture": "#3", "uv": [ 0.0, 0.0, 3.0, 6.0 ] }
+            }
+        },
+        {
+            "name": "Flower Left Right",
+            "from": [ 5.0, 7.0, 9.0 ],
+            "to": [ 5.0, 13.0, 12.0 ],
+            "shade": false,
+            "faces": {
+                "east": { "texture": "#3", "uv": [ 0.0, 0.0, 3.0, 6.0 ] },
+                "west": { "texture": "#3", "uv": [ 0.0, 0.0, 3.0, 6.0 ] }
+            }
+        },
+        {
+            "name": "Middle Leaves 1",
+            "from": [ 6.0, 0.0, 6.0 ],
+            "to": [ 16.0, 10.0, 6.0 ],
+            "rotation": { "origin": [ 8.0, 8.0, 8.0 ], "axis": "y", "angle": 45.0 },
+            "shade": false,
+            "faces": {
+                "north": { "texture": "#0", "uv": [ 0.0, 0.0, 10.0, 10.0 ] },
+                "south": { "texture": "#0", "uv": [ 0.0, 0.0, 10.0, 10.0 ] }
+            }
+        },
+        {
+            "name": "Middle Leaves 2",
+            "from": [ 1.0, 0.0, 5.0 ],
+            "to": [ 11.0, 10.0, 5.0 ],
+            "rotation": { "origin": [ 8.0, 8.0, 8.0 ], "axis": "y", "angle": -45.0 },
+            "shade": false,
+            "faces": {
+                "north": { "texture": "#0", "uv": [ 0.0, 0.0, 10.0, 10.0 ] },
+                "south": { "texture": "#0", "uv": [ 0.0, 0.0, 10.0, 10.0 ] }
+            }
+        },
+        {
+            "name": "Left Leaves 1",
+            "from": [ -1.0, 0.0, 7.0 ],
+            "to": [ 9.0, 7.0, 7.0 ],
+            "rotation": { "origin": [ 8.0, 8.0, 8.0 ], "axis": "y", "angle": 45.0 },
+            "shade": false,
+            "faces": {
+                "north": { "texture": "#1", "uv": [ 0.0, 0.0, 10.0, 7.0 ] },
+                "south": { "texture": "#1", "uv": [ 0.0, 0.0, 10.0, 7.0 ] }
+            }
+        },
+        {
+            "name": "Left Leaves 2",
+            "from": [ 2.0, 0.0, 12.0 ],
+            "to": [ 12.0, 7.0, 12.0 ],
+            "rotation": { "origin": [ 8.0, 8.0, 8.0 ], "axis": "y", "angle": -45.0 },
+            "shade": false,
+            "faces": {
+                "north": { "texture": "#1", "uv": [ 0.0, 0.0, 10.0, 7.0 ] },
+                "south": { "texture": "#1", "uv": [ 0.0, 0.0, 10.0, 7.0 ] }
+            }
+        },
+        {
+            "name": "Flower Right Front",
+            "from": [ 10.0, 7.0, 12.0 ],
+            "to": [ 13.0, 13.0, 12.0 ],
+            "shade": false,
+            "faces": {
+                "north": { "texture": "#2", "uv": [ 0.0, 0.0, 3.0, 6.0 ] },
+                "south": { "texture": "#2", "uv": [ 0.0, 0.0, 3.0, 6.0 ] }
+            }
+        },
+        {
+            "name": "Flower Right Back",
+            "from": [ 10.0, 7.0, 11.0 ],
+            "to": [ 13.0, 13.0, 11.0 ],
+            "shade": false,
+            "faces": {
+                "north": { "texture": "#2", "uv": [ 0.0, 0.0, 3.0, 6.0 ] },
+                "south": { "texture": "#2", "uv": [ 0.0, 0.0, 3.0, 6.0 ] }
+            }
+        },
+        {
+            "name": "Flower Right Left",
+            "from": [ 11.0, 7.0, 10.0 ],
+            "to": [ 11.0, 13.0, 13.0 ],
+            "shade": false,
+            "faces": {
+                "east": { "texture": "#2", "uv": [ 0.0, 0.0, 3.0, 6.0 ] },
+                "west": { "texture": "#2", "uv": [ 0.0, 0.0, 3.0, 6.0 ] }
+            }
+        },
+        {
+            "name": "Flower Right Right",
+            "from": [ 12.0, 7.0, 10.0 ],
+            "to": [ 12.0, 13.0, 13.0 ],
+            "shade": false,
+            "faces": {
+                "east": { "texture": "#2", "uv": [ 0.0, 0.0, 3.0, 6.0 ] },
+                "west": { "texture": "#2", "uv": [ 0.0, 0.0, 3.0, 6.0 ] }
+            }
+        },
+        {
+            "name": "Right Leaves 1",
+            "from": [ 3.0, 0.0, 13.0 ],
+            "to": [ 13.0, 7.0, 13.0 ],
+            "rotation": { "origin": [ 8.0, 8.0, 8.0 ], "axis": "y", "angle": 45.0 },
+            "shade": false,
+            "faces": {
+                "north": { "texture": "#4", "uv": [ 0.0, 0.0, 10.0, 7.0 ] },
+                "south": { "texture": "#4", "uv": [ 0.0, 0.0, 10.0, 7.0 ] }
+            }
+        },
+        {
+            "name": "Right Leaves 2",
+            "from": [ 8.0, 0.0, 8.0 ],
+            "to": [ 18.0, 7.0, 8.0 ],
+            "rotation": { "origin": [ 8.0, 8.0, 8.0 ], "axis": "y", "angle": -45.0 },
+            "shade": false,
+            "faces": {
+                "north": { "texture": "#4", "uv": [ 0.0, 0.0, 10.0, 7.0 ] },
+                "south": { "texture": "#4", "uv": [ 0.0, 0.0, 10.0, 7.0 ] }
+            }
+        }
+    ]
+}

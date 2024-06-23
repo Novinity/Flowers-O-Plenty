@@ -1,0 +1,19 @@
+{
+    "variants": {
+        "facing=east": {
+            "model": "flowersoplenty:block/cobble_purple_top_left",
+            "y": 90
+        },
+        "facing=north": {
+            "model": "flowersoplenty:block/cobble_purple_top_left"
+        },
+        "facing=south": {
+            "model": "flowersoplenty:block/cobble_purple_top_left",
+            "y": 180
+        },
+        "facing=west": {
+            "model": "flowersoplenty:block/cobble_purple_top_left",
+            "y": 270
+        }
+    }
+}

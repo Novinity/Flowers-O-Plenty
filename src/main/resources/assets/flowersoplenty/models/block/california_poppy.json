@@ -1,0 +1,6 @@
+{
+    "textures": {
+        "cross": "flowersoplenty:block/california_poppy"
+    }, 
+    "parent": "block/cross"
+}

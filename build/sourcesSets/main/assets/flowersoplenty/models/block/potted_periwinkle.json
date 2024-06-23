@@ -1,0 +1,6 @@
+{
+    "textures": {
+        "plant": "flowersoplenty:block/periwinkle"
+    },
+    "parent": "block/flower_pot_cross"
+}

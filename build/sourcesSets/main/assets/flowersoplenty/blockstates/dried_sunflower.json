@@ -1,0 +1,10 @@
+{
+    "variants": {
+        "half=lower": {
+            "model": "flowersoplenty:block/dried_sunflower_bottom"
+        }, 
+        "half=upper": {
+            "model": "flowersoplenty:block/dried_sunflower_top"
+        }
+    }
+}

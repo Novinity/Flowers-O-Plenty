@@ -1,0 +1,6 @@
+{
+    "textures": {
+        "plant": "flowersoplenty:block/orange_australian_flame_pea"
+    },
+    "parent": "block/flower_pot_cross"
+}

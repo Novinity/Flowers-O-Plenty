@@ -1,0 +1,10 @@
+{
+    "variants": {
+        "half=lower": {
+            "model": "flowersoplenty:block/orange_gladiola_bottom"
+        }, 
+        "half=upper": {
+            "model": "flowersoplenty:block/orange_gladiola_top"
+        }
+    }
+}

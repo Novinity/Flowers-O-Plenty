@@ -1,0 +1,7 @@
+{
+    "textures": {
+        "top": "flowersoplenty:block/sundance_kid_sunflower_top",
+        "bottom": "flowersoplenty:block/sundance_kid_sunflower_bottom"
+    },
+    "parent": "flowersoplenty:block/tall_flower_pot_cross"
+}

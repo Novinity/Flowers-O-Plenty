@@ -1,0 +1,6 @@
+{
+    "textures": {
+        "cross": "flowersoplenty:block/baby_blue_eyes_small"
+    }, 
+    "parent": "block/cross"
+}

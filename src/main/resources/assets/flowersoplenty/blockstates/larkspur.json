@@ -1,0 +1,10 @@
+{
+    "variants": {
+        "half=lower": {
+            "model": "flowersoplenty:block/larkspur_bottom"
+        }, 
+        "half=upper": {
+            "model": "flowersoplenty:block/larkspur_top"
+        }
+    }
+}

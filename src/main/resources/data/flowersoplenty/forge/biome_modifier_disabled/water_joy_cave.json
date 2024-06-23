@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#minecraft:is_overworld",
+  "features": "flowersoplenty:water_joy_cave",
+  "step": "vegetal_decoration"
+}

@@ -1,0 +1,6 @@
+{
+    "textures": {
+        "cross": "flowersoplenty:block/pink_petticoat"
+    }, 
+    "parent": "block/cross"
+}

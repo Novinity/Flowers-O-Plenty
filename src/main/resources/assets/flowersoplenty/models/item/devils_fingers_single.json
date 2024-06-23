@@ -1,0 +1,6 @@
+{
+    "textures": {
+        "layer0": "flowersoplenty:block/devils_fingers_single"
+    }, 
+    "parent": "item/generated"
+}

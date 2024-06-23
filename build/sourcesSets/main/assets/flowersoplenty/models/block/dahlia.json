@@ -1,0 +1,6 @@
+{
+    "textures": {
+        "cross": "flowersoplenty:block/dahlia"
+    }, 
+    "parent": "block/cross"
+}

@@ -1,0 +1,6 @@
+{
+    "textures": {
+        "layer0": "flowersoplenty:block/mexican_sage"
+    }, 
+    "parent": "item/generated"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "flowersoplenty:jewel_of_the_desert"
+        }
+      ],
+      "name": "flowersoplenty:jewel_of_the_desert",
+      "rolls": 1.0
+    }
+  ]
+}

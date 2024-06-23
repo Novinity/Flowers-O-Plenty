@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "flowersoplenty:dark_blue_borage"
+        }
+      ],
+      "name": "flowersoplenty:dark_blue_borage",
+      "rolls": 1.0
+    }
+  ]
+}

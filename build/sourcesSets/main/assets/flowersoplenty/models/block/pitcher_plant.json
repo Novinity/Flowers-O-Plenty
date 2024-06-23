@@ -1,0 +1,6 @@
+{
+    "textures": {
+        "cross": "flowersoplenty:block/pitcher_plant"
+    }, 
+    "parent": "block/cross"
+}

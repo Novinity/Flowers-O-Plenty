@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes":"minecraft:sunflower_plains",
+  "features": "flowersoplenty:sunflower_orange",
+  "step": "vegetal_decoration"
+}

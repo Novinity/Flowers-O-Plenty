@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "minecraft:beach",
+  "features": "flowersoplenty:beach_forever",
+  "step": "vegetal_decoration"
+}

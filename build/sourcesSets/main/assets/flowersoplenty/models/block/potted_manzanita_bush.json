@@ -1,0 +1,7 @@
+{
+    "textures": {
+        "top": "flowersoplenty:block/manzanita_bush_top",
+        "bottom": "flowersoplenty:block/manzanita_bush_bottom"
+    },
+    "parent": "flowersoplenty:block/tall_flower_pot_cross"
+}

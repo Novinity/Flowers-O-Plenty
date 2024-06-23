@@ -1,0 +1,10 @@
+{
+    "variants": {
+        "": [
+            { "model": "flowersoplenty:block/jack_o_lantern_fungus" },
+            { "model": "flowersoplenty:block/jack_o_lantern_fungus", "y": 90 },
+            { "model": "flowersoplenty:block/jack_o_lantern_fungus", "y": 180 },
+            { "model": "flowersoplenty:block/jack_o_lantern_fungus", "y": 270 }
+        ]
+    }
+}

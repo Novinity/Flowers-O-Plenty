@@ -1,0 +1,6 @@
+{
+    "textures": {
+        "cross": "flowersoplenty:block/himalayan_blue_poppy_top"
+    }, 
+    "parent": "block/cross"
+}

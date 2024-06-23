@@ -1,0 +1,6 @@
+{
+    "textures": {
+        "cross": "flowersoplenty:block/tall_lupin_bottom"
+    }, 
+    "parent": "block/cross"
+}

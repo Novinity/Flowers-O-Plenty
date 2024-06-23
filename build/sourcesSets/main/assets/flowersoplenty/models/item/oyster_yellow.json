@@ -1,0 +1,6 @@
+{
+    "textures": {
+        "layer0": "flowersoplenty:block/oyster_yellow"
+    }, 
+    "parent": "item/generated"
+}

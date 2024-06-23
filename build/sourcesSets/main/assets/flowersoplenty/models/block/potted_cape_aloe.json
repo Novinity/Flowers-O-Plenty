@@ -1,0 +1,7 @@
+{
+    "textures": {
+        "top": "flowersoplenty:block/cape_aloe_top",
+        "bottom": "flowersoplenty:block/cape_aloe_bottom"
+    },
+    "parent": "flowersoplenty:block/tall_flower_pot_cross"
+}

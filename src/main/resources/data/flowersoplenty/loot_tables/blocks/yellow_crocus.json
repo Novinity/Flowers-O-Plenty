@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "flowersoplenty:yellow_crocus"
+        }
+      ],
+      "name": "flowersoplenty:yellow_crocus",
+      "rolls": 1.0
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+    "textures": {
+        "layer0": "flowersoplenty:item/rubber_band"
+    }, 
+    "parent": "item/generated"
+}

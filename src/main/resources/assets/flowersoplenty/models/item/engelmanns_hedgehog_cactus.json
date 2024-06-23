@@ -1,0 +1,6 @@
+{
+    "textures": {
+        "layer0": "flowersoplenty:block/engelmanns_hedgehog_cactus"
+    }, 
+    "parent": "item/generated"
+}

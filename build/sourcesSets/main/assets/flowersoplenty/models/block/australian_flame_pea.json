@@ -1,0 +1,6 @@
+{
+    "textures": {
+        "cross": "flowersoplenty:block/australian_flame_pea"
+    }, 
+    "parent": "block/cross"
+}

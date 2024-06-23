@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "flowersoplenty:cloud_blue_corydalis"
+        }
+      ],
+      "name": "flowersoplenty:cloud_blue_corydalis",
+      "rolls": 1.0
+    }
+  ]
+}

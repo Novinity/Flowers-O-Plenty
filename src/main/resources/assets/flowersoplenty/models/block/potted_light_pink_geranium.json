@@ -1,0 +1,6 @@
+{
+    "textures": {
+        "plant": "flowersoplenty:block/light_pink_geranium"
+    },
+    "parent": "block/flower_pot_cross"
+}

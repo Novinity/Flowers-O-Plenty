@@ -1,0 +1,6 @@
+{
+    "textures": {
+        "plant": "flowersoplenty:block/sunny_zinnia"
+    },
+    "parent": "block/flower_pot_cross"
+}

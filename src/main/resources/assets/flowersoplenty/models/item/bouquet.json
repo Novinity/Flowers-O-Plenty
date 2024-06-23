@@ -1,0 +1,6 @@
+{
+    "textures": {
+        "layer0": "flowersoplenty:item/bouquet"
+    }, 
+    "parent": "item/generated"
+}

@@ -1,0 +1,7 @@
+{
+    "textures": {
+        "top": "flowersoplenty:block/mendocino_poppy_top",
+        "bottom": "flowersoplenty:block/mendocino_poppy_bottom"
+    },
+    "parent": "flowersoplenty:block/tall_flower_pot_cross"
+}

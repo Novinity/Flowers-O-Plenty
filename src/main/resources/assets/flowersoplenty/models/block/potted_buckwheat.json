@@ -1,0 +1,6 @@
+{
+    "textures": {
+        "plant": "flowersoplenty:block/buckwheat"
+    },
+    "parent": "block/flower_pot_cross"
+}

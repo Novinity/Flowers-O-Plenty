@@ -1,0 +1,10 @@
+{
+    "variants": {
+        "": [
+            { "model": "flowersoplenty:block/nuphar" },
+            { "model": "flowersoplenty:block/nuphar", "y": 90 },
+            { "model": "flowersoplenty:block/nuphar", "y": 180 },
+            { "model": "flowersoplenty:block/nuphar", "y": 270 }
+        ]
+    }
+}

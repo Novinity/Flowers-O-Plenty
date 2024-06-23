@@ -1,0 +1,6 @@
+{
+    "textures": {
+        "cross": "flowersoplenty:block/flowering_current_bottom"
+    }, 
+    "parent": "block/cross"
+}

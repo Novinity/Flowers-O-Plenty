@@ -1,0 +1,6 @@
+{
+    "textures": {
+        "cross": "flowersoplenty:block/yellow_starthistle"
+    }, 
+    "parent": "block/cross"
+}

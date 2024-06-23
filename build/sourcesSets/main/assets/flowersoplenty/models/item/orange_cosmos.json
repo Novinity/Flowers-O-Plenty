@@ -1,0 +1,6 @@
+{
+    "textures": {
+        "layer0": "flowersoplenty:block/orange_cosmos"
+    }, 
+    "parent": "item/generated"
+}

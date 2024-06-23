@@ -1,0 +1,7 @@
+{
+    "textures": {
+        "top": "flowersoplenty:block/purple_sweet_peas_top",
+        "bottom": "flowersoplenty:block/purple_sweet_peas_bottom"
+    },
+    "parent": "flowersoplenty:block/tall_flower_pot_cross"
+}
